@@ -27,7 +27,7 @@ const ResumePage = () => {
               <li>Created a WordPress site for Goodness Creative,&nbsp;<a href="http://goodness-creative.com">goodness-creative.com</a></li>
               <li>Added content to pages on WordPress site&nbsp;<a href="http://biomasscontrols.com">biomasscontrols.com</a></li>
               <li>Tested updates and maintenance to <a href="http://brandywineoak.com">brandywineoak.com</a> in development environment before making changes&nbsp;live</li>
-              <li>Developing site with React.js which is scoring 100/100 for Accessibility and Best Practices on Lighthouse 7.5.0&nbsp;(<a href="http://coachscall.gatsby.io">coachscall.gatsby.io</a>)</li>
+              <li>Developing site with React.js which is scoring 100/100 for Accessibility and Best Practices on Lighthouse 7.5.0&nbsp;(<a href="http://coachscall.gatsbyjs.io">coachscall.gatsbyjs.io</a>)</li>
               <li>Restyled pages on the WordPress site with CSS,&nbsp;<a href="http://brandywineoak.com">brandywineoak.com</a></li>
               <li>Taught Chester County Life how to navigate the Google Analytics connected to their&nbsp;site</li>
           </ul>

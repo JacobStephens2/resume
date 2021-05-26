@@ -69,6 +69,11 @@ p {
   padding-left: 1rem;
   padding-bottom: 3rem;
 }
+@media print {
+  .content {
+    padding-bottom: 0;
+  }
+}
 .date {
   display: inline;
   white-space: nowrap;
