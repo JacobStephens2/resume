@@ -10,8 +10,11 @@ a:visited {
   text-decoration: none;
 }
 h1 {
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.35rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+h2 {
+  margin-top: 0.85rem;
 }
 @media print {
   h1 {
@@ -24,6 +27,7 @@ h2 {
 @media print {
   h2 {
     margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
   }
 }
 h3 {
