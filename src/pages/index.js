@@ -28,7 +28,7 @@ const ResumePage = () => {
         <li>Restyled <a href='https://chestercounty-life.com'>chestercounty-life.com</a> to better match the aesthetic of Chester County Life&#39;s latest&nbsp;magazines</li>
         <li>Added subscription functionality to <a href='https://chestercounty-life.com'>chestercounty-life.com</a> which meets the Payment Card Industry data security&nbsp;standard </li>
         <li>Creating a new website for 15 East Creative at&nbsp;<a href='https://15east.gatsbyjs.io'>15east.gatsbyjs.io</a></li>
-        <li>Built a parralax effect into a sample homepage for Goodness&nbsp;Creative:&nbsp;<a href='https://goodnesscreative.gatsbyjs.io'>goodnesscreative.gatsbyjs.io</a></li>
+        <li>Built a parallax effect into a sample homepage for Goodness&nbsp;Creative:&nbsp;<a href='https://goodnesscreative.gatsbyjs.io'>goodnesscreative.gatsbyjs.io</a></li>
         <li>Added content to <a href='https://biomasscontrols.com'>biomasscontrols.com</a>, matching the style of the new content with the existing&nbsp;content</li>
         <li>Improved appearance of <a href='https://brandywineoak.com'>brandywineoak.com</a>, making text more readable and breakpoint changes more&nbsp;pleasing</li>
         <li>Developing a site for Coach&#39;s Call, an athletic mentoring program, at&nbsp;<a href='https://coachscall.gatsbyjs.io/'>coachscall.gatsbyjs.io</a></li>
