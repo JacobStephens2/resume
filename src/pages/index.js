@@ -37,11 +37,9 @@ const ResumePage = () => {
             484.356.7773
           </a>
         </p>
-        <a for="toc-anchor" id="work"></a>
         <h2 id="work" data-line="4" class="code-line">
           Work
         </h2>
-        <a for="toc-anchor" id="full-stack-web-developer"></a>
         <h3 id="full-stack-web-developer" data-line="6" class="code-line">
           Full Stack Web Developer
         </h3>
@@ -156,7 +154,6 @@ const ResumePage = () => {
             </a>
           </li>
         </ul>
-        <a for="toc-anchor" id="graphic-designer"></a>
         <h3 id="graphic-designer" data-line="35" class="code-line">
           Graphic Designer
         </h3>
@@ -192,7 +189,6 @@ const ResumePage = () => {
             </a>
           </li>
         </ul>
-        <a for="toc-anchor" id="ecommerce-business-owner"></a>
         <h3 id="ecommerce-business-owner" data-line="46" class="code-line">
           Ecommerce Business Owner
         </h3>
@@ -207,7 +203,6 @@ const ResumePage = () => {
             Sold the games individually through online retail
           </li>
         </ul>
-        <a for="toc-anchor" id="computer-support-analyst"></a>
         <h3 id="computer-support-analyst" data-line="53" class="code-line">
           Computer Support Analyst
         </h3>
@@ -222,7 +217,6 @@ const ResumePage = () => {
             Maintained campus computers
           </li>
         </ul>
-        <a for="toc-anchor" id="computer-technician"></a>
         <h3 id="computer-technician" data-line="60" class="code-line">
           Computer Technician
         </h3>
@@ -241,7 +235,6 @@ const ResumePage = () => {
             Created imaging process to speed up new employee computer setup
           </li>
         </ul>
-        <a for="toc-anchor" id="sales-associate-and-farmhand"></a>
         <h3 id="sales-associate-and-farmhand" data-line="68" class="code-line">
           Sales Associate and Farmhand
         </h3>
@@ -259,11 +252,9 @@ const ResumePage = () => {
             Reorganized storage to increase ease of use
           </li>
         </ul>
-        <a for="toc-anchor" id="education"></a>
         <h2 id="education" data-line="76" class="code-line">
           Education
         </h2>
-        <a for="toc-anchor" id="wordpress-developer-certification"></a>
         <h3
           id="wordpress-developer-certification"
           data-line="78"
@@ -274,7 +265,6 @@ const ResumePage = () => {
         <p data-line="80" class="code-line">
           LinkedIn Learning | Apr 2020 – Apr 2021
         </p>
-        <a for="toc-anchor" id="comptia-a%2B-computer-support-specialist"></a>
         <h3
           id="comptia-a-computer-support-specialist"
           data-line="82"
@@ -285,14 +275,12 @@ const ResumePage = () => {
         <p data-line="84" class="code-line">
           Berks Technical Institute | Aug 2017 – Nov 2017
         </p>
-        <a for="toc-anchor" id="bachelor-of-arts-in-sociology"></a>
         <h3 id="bachelor-of-arts-in-sociology" data-line="86" class="code-line">
           Bachelor of Arts in Sociology
         </h3>
         <p data-line="88" class="code-line">
           Gordon College | Aug 2012 – Aug 2017
         </p>
-        <a for="toc-anchor" id="skills"></a>
         <h2 id="skills" data-line="90" class="code-line">
           Skills
         </h2>
