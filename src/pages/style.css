@@ -16,32 +16,13 @@ h1 {
 h2 {
   margin-top: 0.85rem;
 }
-@media print {
-  h1 {
-    margin-top: 0;
-  }
-}
 h2 {
   margin-bottom: 0;
-}
-@media print {
-  h2 {
-    margin-top: 0.3rem;
-    margin-bottom: 0.5rem;
-  }
 }
 h3 {
   margin: 0.65rem 0 0;
   font-size: 1.1rem;
   font-weight: bold;
-}
-@media print {
-  h3 {
-    margin: 0.3rem 0 0;
-  }
-  #computer-support-analyst {
-    margin: 0;
-  }
 }
 h4 {
   font-size: 1.05rem;
@@ -56,27 +37,16 @@ ul {
 li {
   padding-top: 0.6rem;
 }
-@media print {
-  li {
-    padding-top: 0;
-  }
+li:first-of-type {
+  padding-top: 0;
 }
 p {
   margin: 0 1rem 0.5rem 0;
-}
-.header {
-  padding: 0 1rem;
-  border-bottom: 2px solid lightgrey;
 }
 .content {
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 3rem;
-}
-@media print {
-  .content {
-    padding-bottom: 0;
-  }
 }
 .date {
   display: inline;
@@ -85,9 +55,21 @@ p {
 .nowrap {
   white-space: nowrap;
 }
-.college_list li {
-  font-style: italic;
-}
-.college_list li strong {
-  font-style: normal;
+@media print {
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    margin: 0.3rem 0 0;
+  }
+  li {
+    padding-top: 0;
+  }
+  .content {
+    padding-bottom: 0;
+  }
 }
