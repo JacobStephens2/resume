@@ -1,12 +1,11 @@
 import React from "react"
+import "./remedy.css"
 import "./style.css"
 import Seo from "../components/seo"
-
 
 const ResumePage = () => {
   return (
     <div>
-
       <Seo
         title="Jacob Stephens Resume"
         description="Jacob Stephens Resume"
@@ -14,73 +13,299 @@ const ResumePage = () => {
         pathname="/"
       />
 
-      <div class="header">
-        <h1 id='jacob-stephens'>Jacob Stephens</h1>
-        <p><a href='https://stewardgoods.com'>stewardgoods.com</a> | <a href='mailto:jacob@stewardgoods.com/'>jacob@stewardgoods.com</a> | <a href='tel:484-356-7773'>484-356-7773</a></p>
-      </div>
-
       <div class="content">
-        <h2 id='work'>Work</h2>
-        <h3 id='web-designer-and-graphic-designer'>Web Designer and Graphic&nbsp;Designer</h3>
-        <h4 id='15-east-creative--sep-19---present'>15 East Creative | Sep &#39;19 - Present</h4>
+        <a for="toc-anchor" id="jacob-stephens"></a>
+        <h1 id="jacob-stephens" data-line="0" class="code-line">
+          Jacob Stephens
+        </h1>
+        <p data-line="2" class="code-line">
+          <a
+            href="https://stewardgoods.com"
+            data-href="https://stewardgoods.com"
+          >
+            stewardgoods.com
+          </a>
+           | 
+          <a
+            href="mailto:jacob@stewardgoods.com"
+            data-href="mailto:jacob@stewardgoods.com"
+          >
+            jacob@stewardgoods.com
+          </a>
+           | 
+          <a href="tel:484-356-7773" data-href="tel:484-356-7773">
+            484.356.7773
+          </a>
+        </p>
+        <a for="toc-anchor" id="work"></a>
+        <h2 id="work" data-line="4" class="code-line">
+          Work
+        </h2>
+        <a for="toc-anchor" id="full-stack-web-developer"></a>
+        <h3 id="full-stack-web-developer" data-line="6" class="code-line">
+          Full Stack Web Developer
+        </h3>
+        <p data-line="8" class="code-line">
+          Steward Goods | Mar 2020 – Present
+        </p>
         <ul>
-        <li>Developed <a href='https://dana4wvt.com/'>dana4wvt.com</a> from scratch for Dana Alan&#39;s campaign for West Vincent Township supervisor, expanding accessibility by making it a progressive web app, installable and PWA&nbsp;optimized</li>
-        <li>Restyled <a href='https://chestercounty-life.com'>chestercounty-life.com</a> to better match the aesthetic of Chester County Life&#39;s latest&nbsp;magazines</li>
-        <li>Added subscription functionality to <a href='https://chestercounty-life.com'>chestercounty-life.com</a> which meets the Payment Card Industry data security&nbsp;standard </li>
-        <li>Creating a new website for 15 East Creative at&nbsp;<a href='https://15east.gatsbyjs.io'>15east.gatsbyjs.io</a></li>
-        <li>Built a parallax effect into a sample homepage for Goodness&nbsp;Creative:&nbsp;<a href='https://goodnesscreative.gatsbyjs.io'>goodnesscreative.gatsbyjs.io</a></li>
-        <li>Added content to <a href='https://biomasscontrols.com'>biomasscontrols.com</a>, matching the style of the new content with the existing&nbsp;content</li>
-        <li>Improved appearance of <a href='https://brandywineoak.com'>brandywineoak.com</a>, making text more readable and breakpoint changes more&nbsp;pleasing</li>
-        <li>Developing a site for Coach&#39;s Call, an athletic mentoring program, at&nbsp;<a href='https://coachscall.gatsbyjs.io/'>coachscall.gatsbyjs.io</a></li>
-        <li>Taught Chester County Life how to navigate the Google Analytics I installed on their&nbsp;website</li>
-
+          <li data-line="10" class="code-line">
+            Developed progressive web app for a township supervisor campaign 
+            <a href="https://dana4wvt.com" data-href="https://dana4wvt.com">
+              dana4wvt.com
+            </a>
+          </li>
+          <li data-line="12" class="code-line">
+            Attained a perfect score on Google's Core Web Vitals 
+            <a
+              href="https://jacobcstephens.com"
+              data-href="https://jacobcstephens.com"
+            >
+              jacobcstephens.com
+            </a>
+          </li>
+          <li data-line="14" class="code-line">
+            Adjusted a parallax effect in web design brainstorming 
+            <a
+              href="https://goodnesscreative.gatsbyjs.io"
+              data-href="https://goodnesscreative.gatsbyjs.io"
+            >
+              goodnesscreative.gatsbyjs.io
+            </a>
+          </li>
+          <li data-line="16" class="code-line">
+            Added Payment Card Industry compliant subscription feature to site 
+            <a
+              href="https://chestercounty-life.com"
+              data-href="https://chestercounty-life.com"
+            >
+              chestercounty-life.com
+            </a>
+          </li>
+          <li data-line="18" class="code-line">
+            Creating web app to match company style guide 
+            <a
+              href="https://15east.gatsbyjs.io"
+              data-href="https://15east.gatsbyjs.io"
+            >
+              15east.gatsbyjs.io
+            </a>
+          </li>
+          <li data-line="20" class="code-line">
+            Developing a progressive web app for an athletic mentoring program 
+            <a
+              href="https://coachscall.gatsbyjs.io"
+              data-href="https://coachscall.gatsbyjs.io"
+            >
+              coachscall.gatsbyjs.io
+            </a>
+          </li>
+          <li data-line="22" class="code-line">
+            Created web app in tandem with customer 
+            <a
+              href="https://klsweddingcoordination.com"
+              data-href="https://klsweddingcoordination.com"
+            >
+              klsweddingcoordination.com
+            </a>
+          </li>
+          <li data-line="24" class="code-line">
+            Added new pages to existing site 
+            <a
+              href="https://biomasscontrols.com"
+              data-href="https://biomasscontrols.com"
+            >
+              biomasscontrols.com
+            </a>
+          </li>
+          <li data-line="26" class="code-line">
+            Improved text readability of site 
+            <a
+              href="https://brandywineoak.com"
+              data-href="https://brandywineoak.com"
+            >
+              brandywineoak.com
+            </a>
+          </li>
+          <li data-line="28" class="code-line">
+            Engineered a web app to operationalize minimalism 
+            <a
+              href="https://artifacts.stewardgoods.com"
+              data-href="https://artifacts.stewardgoods.com"
+            >
+              artifacts.stewardgoods.com
+            </a>
+          </li>
+          <li data-line="30" class="code-line">
+            Increased the performance of content management system by making it
+            to headless 
+            <a
+              href="https://stewardgoods.com"
+              data-href="https://stewardgoods.com"
+            >
+              stewardgoods.com
+            </a>
+          </li>
+          <li data-line="32" class="code-line">
+            Guided customer through development of their own site 
+            <a
+              href="https://roseriverway.com"
+              data-href="https://roseriverway.com"
+            >
+              roseriverway.com
+            </a>
+          </li>
         </ul>
-        <h3 id='web-developer-and-founder'>Web Developer and&nbsp;Founder</h3>
-        <h4 id='steward-goods-web-design--may-18---present'>Steward Goods Web Design | May &#39;18 - Present</h4>
+        <a for="toc-anchor" id="graphic-designer"></a>
+        <h3 id="graphic-designer" data-line="35" class="code-line">
+          Graphic Designer
+        </h3>
+        <p data-line="37" class="code-line">
+          Steward Goods | Sep 2019 – Present
+        </p>
         <ul>
-        <li>Created the single page information site <a href='https://klsweddingcoordination.gatsbyjs.io'>klsweddingcoordination.gatsbyjs.io</a> for KLS Wedding Coordination, adopting best practices in&nbsp;development</li>
-        <li>Engineered <a href='https://artifacts.stewardgoods.com'>artifacts.stewardgoods.com</a>, a tool empowering people to track uses of their artifacts and generate use-by date lists for those&nbsp;artifacts</li>
-        <li>Increased the performance of <a href='https://stewardgoods.com/'>stewardgoods.com</a> by transitioning it to a Gatsby static generated site with WordPress as the content management&nbsp;system</li>
-        <li>Upgraded search engine optimization of <a href='https://jacobcstephens.com/'>jacobcstephens.com</a>, and in so doing attained a perfect score in all categories on Google&#39;s Core Web Vitals test with Lighthouse&nbsp;8.3.0</li>
-        <li>Produced <a href='https://roseriverway.com'>roseriverway.com</a> and taught the site owner how to make their own updates to the&nbsp;site</li>
-
+          <li data-line="39" class="code-line">
+            Edited photos with Photoshop 
+            <a
+              href="https://stewardgoods.com/corsage-removal-with-photoshop/"
+              data-href="https://stewardgoods.com/corsage-removal-with-photoshop/"
+            >
+              corsage removed photo
+            </a>
+          </li>
+          <li data-line="41" class="code-line">
+            Layed out content with InDesign 
+            <a
+              href="https://stewardgoods.com/two-person-agile-product-development-flowchart/"
+              data-href="https://stewardgoods.com/two-person-agile-product-development-flowchart/"
+            >
+              Agile development flowchart
+            </a>
+          </li>
+          <li data-line="43" class="code-line">
+            Drew illustrations with Illustrator 
+            <a
+              href="https://stewardgoods.com/montgomery-school-map/"
+              data-href="https://stewardgoods.com/montgomery-school-map/"
+            >
+              Montgomery School map
+            </a>
+          </li>
         </ul>
-        <h3 id='computer-support-analyst'>Computer Support Analyst</h3>
-        <h4 id='alvernia-university--may-18----nov-18'>Alvernia University | May &#39;18 – Nov &#39;18</h4>
-        <h3 id='computer-technician'>Computer Technician</h3>
-        <h4 id='kingdom-supply--jan-18----sep-18'>Kingdom Supply | Jan &#39;18 – Sep &#39;18</h4>
-        <h3 id='sales-associate'>Sales Associate</h3>
-        <h4 id='weavers-orchard--june-10----aug-13-jul-16----nov-16'>Weaver’s Orchard | June &#39;10 – Aug &#39;13; Jul &#39;16 – Nov &#39;16</h4>
-        <hr />
-        <h2 id='education'>Education</h2>
-        <h3 id='certified-advanced-wordpress-developer'>Certified Advanced WordPress Developer</h3>
-        <h4 id='linkedin-learning--apr-20---apr-21'>LinkedIn Learning | Apr &#39;20 - Apr &#39;21</h4>
-        <h3 id='comptia-a-computer-technician'>CompTIA A+ Computer Technician</h3>
-        <h4 id='berks-technical-institute--aug-17---nov-17'>Berks Technical Institute | Aug &#39;17 - Nov &#39;17</h4>
-        <h3 id='bachelor-of-arts-with-a-major-in-sociology'>Bachelor of Arts with a Major in Sociology</h3>
-        <h4 id='gordon-college--aug-12---aug-17'>Gordon College | Aug &#39;12 - Aug &#39;17</h4>
+        <a for="toc-anchor" id="ecommerce-business-owner"></a>
+        <h3 id="ecommerce-business-owner" data-line="46" class="code-line">
+          Ecommerce Business Owner
+        </h3>
+        <p data-line="48" class="code-line">
+          Steward Goods | May 2018 – Mar 2020
+        </p>
         <ul>
-        <li><strong>Program Aide</strong> | European Center for the Study of War and Peace | Sep &#39;16 - Dec &#39;16</li>
-        <li><strong>Honors Student</strong> | Elijah Project for Work and Vocation | Jan &#39;15 - May &#39;16</li>
-        <li><strong>Delegate for Libya</strong> | Harvard National Model United Nations | Jan &#39;15 - Apr &#39;15</li>
-        <li><strong>Administrative Assistant</strong> | Philabundance Community Kitchen | May &#39;15 – Aug &#39;15</li>
-        <li><strong>Research Assistant</strong> | Agora Institute for Civic Virtue and the Common Good | May &#39;15 – Sep &#39;15</li>
-        <li><strong>Event Management Apprentice</strong> | Center for Faith and Inquiry | Sep &#39;14 – May &#39;15</li>
-        <li><strong>Field Intern</strong> | Partners in Development | Jun &#39;14 – Aug &#39;14</li>
-        <li><strong>Companion to Residents with Dementia</strong> | Essex Park Rehabilitation Center | Jan &#39;14 - May &#39;14</li>
-        <li><strong>Resident Advisor</strong> | Gordon College Residence Life | Aug &#39;13 – May &#39;14</li>
-        <li><strong>Childcare Worker</strong> | The Boys and Girls Club of Lynn | Jan &#39;13 - May &#39;13</li>
-
+          <li data-line="50" class="code-line">
+            Bought board games in bulk from people liquidating their collections
+          </li>
+          <li data-line="51" class="code-line">
+            Sold the games individually through online retail
+          </li>
         </ul>
-        <hr />
-        <h2 id='volunteering-and-leisure'>Volunteering and Leisure</h2>
-        <h3 id='board-game-event-cohost'>Board Game Event&nbsp;Cohost</h3>
-        <h4 id='meetup--feb-18---present'>Meetup | Feb &#39;18 - Present</h4>
-        <h3 id='beekeeper'>Beekeeper</h3>
-        <h4 id='steward-goods-honey--mar-17---sep-20'>Steward Goods Honey | Mar &#39;17 - Sep &#39;20</h4>
+        <a for="toc-anchor" id="computer-support-analyst"></a>
+        <h3 id="computer-support-analyst" data-line="53" class="code-line">
+          Computer Support Analyst
+        </h3>
+        <p data-line="55" class="code-line">
+          Alvernia University | May 2018 – Nov 2018
+        </p>
+        <ul>
+          <li data-line="57" class="code-line">
+            Fixed people's computer problems remotely and on-site
+          </li>
+          <li data-line="58" class="code-line">
+            Maintained campus computers
+          </li>
+        </ul>
+        <a for="toc-anchor" id="computer-technician"></a>
+        <h3 id="computer-technician" data-line="60" class="code-line">
+          Computer Technician
+        </h3>
+        <p data-line="62" class="code-line">
+          Kingdom Supply | Jan 2018 – Sep 2018
+        </p>
+        <ul>
+          <li data-line="64" class="code-line">
+            Refurbished electronics
+          </li>
+          <li data-line="65" class="code-line">
+            Collected and analyzed refurbishing department data to support
+            decision making
+          </li>
+          <li data-line="66" class="code-line">
+            Created imaging process to speed up new employee computer setup
+          </li>
+        </ul>
+        <a for="toc-anchor" id="sales-associate-and-farmhand"></a>
+        <h3 id="sales-associate-and-farmhand" data-line="68" class="code-line">
+          Sales Associate and Farmhand
+        </h3>
+        <p data-line="70" class="code-line">
+          Weaver's Orchard Farm Market | Jun 2010 – Nov 2016
+        </p>
+        <ul>
+          <li data-line="72" class="code-line">
+            Sold produce
+          </li>
+          <li data-line="73" class="code-line">
+            Cared for plants
+          </li>
+          <li data-line="74" class="code-line">
+            Reorganized storage to increase ease of use
+          </li>
+        </ul>
+        <a for="toc-anchor" id="education"></a>
+        <h2 id="education" data-line="76" class="code-line">
+          Education
+        </h2>
+        <a for="toc-anchor" id="wordpress-developer-certification"></a>
+        <h3
+          id="wordpress-developer-certification"
+          data-line="78"
+          class="code-line"
+        >
+          WordPress Developer Certification
+        </h3>
+        <p data-line="80" class="code-line">
+          LinkedIn Learning | Apr 2020 – Apr 2021
+        </p>
+        <a for="toc-anchor" id="comptia-a%2B-computer-support-specialist"></a>
+        <h3
+          id="comptia-a-computer-support-specialist"
+          data-line="82"
+          class="code-line"
+        >
+          CompTIA A+ Computer Support Specialist Certification
+        </h3>
+        <p data-line="84" class="code-line">
+          Berks Technical Institute | Aug 2017 – Nov 2017
+        </p>
+        <a for="toc-anchor" id="bachelor-of-arts-in-sociology"></a>
+        <h3 id="bachelor-of-arts-in-sociology" data-line="86" class="code-line">
+          Bachelor of Arts in Sociology
+        </h3>
+        <p data-line="88" class="code-line">
+          Gordon College | Aug 2012 – Aug 2017
+        </p>
+        <a for="toc-anchor" id="skills"></a>
+        <h2 id="skills" data-line="90" class="code-line">
+          Skills
+        </h2>
+        <p data-line="92" class="code-line">
+          JavaScript (ES6+), HTML, CSS, Git, React.js, Gatsby.js, PHP, MySQL,
+          SQL, WordPress, Amazon Web Services (AWS), Google Core Web Vitals, web
+          content accessibility guidelines (WCAG), web performance, search
+          engine optimization (SEO), progressive web apps (PWAs), Photoshop,
+          InDesign, Illustrator
+        </p>
       </div>
     </div>
   )
 }
 
-export default ResumePage;
+export default ResumePage
