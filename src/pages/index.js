@@ -162,7 +162,7 @@ const ResumePage = () => {
           JavaScript (ES6+), HTML, CSS, Git, React.js, Gatsby.js, PHP, MySQL,
           SQL, WordPress, Google Core Web Vitals, web content accessibility
           guidelines (WCAG), web performance, search engine optimization (SEO),
-          progressive web apps (PWAs), Photoshop, InDesign, Illustrator
+          progressive web apps (PWAs), Photoshop, InDesign,&nbsp;Illustrator
         </p>
       </div>
     </div>
