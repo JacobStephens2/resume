@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const ResumePage = () => {
   return (
-    <div>
+    <>
       <Seo
         title="Jacob Stephens Resume"
         description="Jacob Stephens Resume"
@@ -13,8 +13,8 @@ const ResumePage = () => {
         pathname="/"
       />
 
-      <div class="content">
-        <h1 id="jacob-stephens">Jacob Stephens</h1>
+      <section className="content">
+        <h1>Jacob Stephens</h1>
         <p>
           <a href="https://stewardgoods.com">stewardgoods.com</a>
            | 
@@ -23,149 +23,158 @@ const ResumePage = () => {
           <a href="tel:484-356-7773">484.356.7773</a>
         </p>
 
-        <h2 id="work">Work</h2>
+        <h2>Work</h2>
 
-        <h3 id="full-stack-web-developer">Full Stack Web Developer</h3>
-        <p>Steward Goods | Mar 2020 – Present</p>
+        <h3>Full-Stack Web Developer</h3>
+        <p>
+          <a href="https://stewardgoods.com/">Steward Goods</a> | Mar 2020 –
+          Present
+        </p>
         <ul>
           <li>
-            Developed progressive web app for a township supervisor campaign 
-            <a href="https://dana4wvt.com">dana4wvt.com</a>
+            <a href="https://dana4wvt.com">Developed</a> progressive web app for
+            a township supervisor campaign with&nbsp;React.js
           </li>
           <li>
-            Attained a perfect score on Google's Core Web Vitals 
-            <a href="https://jacobcstephens.com">jacobcstephens.com</a>
+            <a href="https://stewardgoods.com">Optimized</a> sites, attaining
+            perfect scores on Google's Core Web Vitals Lighthouse
+            8.5.1&nbsp;tests
           </li>
           <li>
-            Adjusted a parallax effect in web design brainstorming 
-            <a href="https://goodnesscreative.gatsbyjs.io">
-              goodnesscreative.gatsbyjs.io
-            </a>
+            <a href="https://chestercounty-life.com">Implemented</a> PCI
+            compliant subscription functionality on website with&nbsp;Stripe
           </li>
           <li>
-            Added Payment Card Industry compliant subscription feature to site 
-            <a href="https://chestercounty-life.com">chestercounty-life.com</a>
+            <a href="https://goodnesscreative.gatsbyjs.io">Refined</a> a
+            parallax effect in web design brainstorming with&nbsp;SASS
           </li>
           <li>
-            Creating web app to match company style guide 
-            <a href="https://15east.gatsbyjs.io">15east.gatsbyjs.io</a>
+            <a href="https://biomasscontrols.com">Expanded</a> pages, sections,
+            and content on sites
           </li>
           <li>
-            Developing a progressive web app for an athletic mentoring program 
-            <a href="https://coachscall.gatsbyjs.io">coachscall.gatsbyjs.io</a>
+            <a href="https://brandywineoak.com">Improved</a> text readability of
+            web apps by following WCAG
           </li>
           <li>
-            Created web app in tandem with customer 
-            <a href="https://klsweddingcoordination.com">
-              klsweddingcoordination.com
-            </a>
+            <a href="https://artifacts.stewardgoods.com">Engineered</a> a
+            content management system using PHP and MySQL 
           </li>
           <li>
-            Added new pages to existing site 
-            <a href="https://biomasscontrols.com">biomasscontrols.com</a>
+            <a href="https://jacobcstephens.com">Increased</a> the performance
+            of a WordPress site 60% by making it headless with Gatsby.js
           </li>
           <li>
-            Improved text readability of site 
-            <a href="https://brandywineoak.com">brandywineoak.com</a>
+            <a href="https://15east.gatsbyjs.io">Creating</a> web app to match
+            company style guide
           </li>
           <li>
-            Engineered a web app to operationalize minimalism 
-            <a href="https://artifacts.stewardgoods.com">
-              artifacts.stewardgoods.com
-            </a>
-          </li>
-          <li>
-            Increased the performance of content management system by making it
-            to headless 
-            <a href="https://stewardgoods.com">stewardgoods.com</a>
-          </li>
-          <li>
-            Guided customer through development of their own site 
-            <a href="https://roseriverway.com">roseriverway.com</a>
+            <a href="https://coachscall.gatsbyjs.io">Producing</a> a progressive
+            web app for an athletic mentoring program with Bootstrap
           </li>
         </ul>
-
         <h3 id="graphic-designer">Graphic Designer</h3>
-        <p>Steward Goods | Sep 2019 – Present</p>
+        <p>
+          <a href="https://stewardgoods.com/">Steward Goods</a> | Sep 2019 –
+          Present
+        </p>
         <ul>
           <li>
-            Edited photos with Photoshop 
             <a href="https://stewardgoods.com/corsage-removal-with-photoshop/">
-              corsage removed photo
-            </a>
+              Edited
+            </a>{" "}
+            photos with Photoshop, making photos usable in new contexts
           </li>
           <li>
-            Laid out content with InDesign 
             <a href="https://stewardgoods.com/two-person-agile-product-development-flowchart/">
-              Agile development flowchart
-            </a>
+              Planned
+            </a>{" "}
+            content layouts with InDesign, capturing complex ideas in diagrams
           </li>
           <li>
-            Drew illustrations with Illustrator 
-            <a href="https://stewardgoods.com/montgomery-school-map/">
-              Montgomery School map
-            </a>
+            <a href="https://stewardgoods.com/montgomery-school-map/">Drew</a>{" "}
+            illustrations with Illustrator, making spaces more navigable
+          </li>
+          <li>
+            <a href="https://chestercounty-life.com/past-issues/#pdf-chester-county-life-september-october-2021/1/">
+              Designed
+            </a>{" "}
+            products according to style guides, keeping branding consistent
+            through materials
           </li>
         </ul>
 
-        <h3 id="ecommerce-business-owner">Ecommerce Business Owner</h3>
-        <p>Steward Goods | May 2018 – Mar 2020</p>
+        <h3>Ecommerce Business Owner</h3>
+        <p>
+          <a href="https://stewardgoods.com/">Steward Goods</a> | May 2018 – Mar
+          2020
+        </p>
         <ul>
           <li>
-            Bought board games in bulk from people liquidating their collections
+            Bought items in bulk from people liquidating their possessions
           </li>
-          <li>Sold the games individually through online retail</li>
+          <li>Sold items individually through online retail</li>
+          <li>
+            Operated an online store and facilitated over $35,000 of board game
+            sales, plus more in other&nbsp;categories
+          </li>
         </ul>
 
-        <h3 id="computer-support-analyst">Computer Support Analyst</h3>
+        <h3>Computer Support Analyst</h3>
         <p>Alvernia University | May 2018 – Nov 2018</p>
         <ul>
           <li>Fixed people's computer problems remotely and on-site</li>
-          <li>Maintained campus computers</li>
+          <li>Maintained campus computers through re-imaging</li>
+          <li>Managed technology inventory</li>
         </ul>
 
-        <h3 id="computer-technician">Computer Technician</h3>
+        <h3>Computer Technician</h3>
         <p>Kingdom Supply | Jan 2018 – Sep 2018</p>
         <ul>
           <li>Refurbished electronics</li>
           <li>
-            Collected and analyzed refurbishing department data to support
-            decision making
+            Collected and analyzed refurbishing department data using Excel
           </li>
           <li>
             Created imaging process to speed up new employee computer setup
           </li>
         </ul>
 
-        <h3 id="sales-associate-and-farmhand">Sales Associate and Farmhand</h3>
+        <h3>Sales Associate</h3>
         <p>Weaver's Orchard Farm Market | Jun 2010 – Nov 2016</p>
         <ul>
+          <li>
+            Created data driven system to aid in market stand product selection
+          </li>
           <li>Sold produce</li>
           <li>Cared for plants</li>
           <li>Reorganized storage to increase ease of use</li>
         </ul>
-        <h2 id="education">Education</h2>
-        <h3 id="wordpress-developer-certification" data-l>
-          WordPress Developer Certification
-        </h3>
-        <p>LinkedIn Learning | Apr 2020 – Apr 2021</p>
-        <h3 id="comptia-a-computer-support-specialist" data-l>
-          CompTIA A+ IT Technician Certification
-        </h3>
+
+        <h2>Education</h2>
+
+        <h3>DevOps Engineer Certificate</h3>
+        <p>LinkedIn Learning | In Progress</p>
+
+        <h3>Full-Stack Developer Certificate</h3>
+        <p>LinkedIn Learning | Oct 2021</p>
+
+        <h3>CompTIA A+ IT Technician Certification</h3>
         <p>Berks Technical Institute | Aug 2017 – Nov 2017</p>
-        <h3 id="bachelor-of-arts-in-sociology">
-          Bachelor of Arts in Sociology
-        </h3>
+
+        <h3>Bachelor of Arts in Sociology</h3>
         <p>Gordon College | Aug 2012 – Aug 2017</p>
-        <h2 id="skills">Skills</h2>
+
+        <h2>Skills</h2>
         <p>
+          {/* 15 skills (limit to 15) */}
           JavaScript (ES6+), HTML, CSS, Git, React.js, Gatsby.js, PHP, MySQL,
-          SQL, WordPress, Google Core Web Vitals, web content accessibility
-          guidelines (WCAG), web performance, search engine optimization (SEO),
-          progressive web apps (PWAs), Photoshop, InDesign,&nbsp;Illustrator
+          Payment Card Industry compliance (PCI), WordPress, Google Core Web
+          Vitals, web content accessibility guidelines (WCAG), Photoshop,
+          InDesign,&nbsp;Illustrator
         </p>
-      </div>
-    </div>
+      </section>
+    </>
   )
 }
 

@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   font-family: "Arial", sans-serif;
   line-height: 1.6;
-  max-width: 700px;
+  max-width: 611px;
   margin: 0;
   padding: 0;
 }
@@ -35,7 +35,7 @@ ul {
   margin-top: 0;
 }
 li {
-  padding-top: 0.6rem;
+  padding-top: 5px;
 }
 li:first-of-type {
   padding-top: 0;
@@ -71,8 +71,5 @@ p {
   }
   .content {
     padding-bottom: 0;
-  }
-  #computer-technician {
-    margin-top: 2rem;
   }
 }
