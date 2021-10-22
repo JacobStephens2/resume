@@ -62,7 +62,8 @@ const ResumePage = () => {
           </li>
           <li>
             <a href="https://jacobcstephens.com">Increased</a> the performance
-            of a WordPress site 60% by making it headless with&nbsp;Gatsby.js
+            of a WordPress site 60% by making it headless with GraphQL API
+            and&nbsp;Gatsby.js
           </li>
           <li>
             <a href="https://15east.gatsbyjs.io">Creating</a> web app to match
@@ -268,14 +269,14 @@ const ResumePage = () => {
           <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/styles/accessibility.css">
             <li>WCAG</li>
           </a>
-          <a href="https://stewardgoods.com/corsage-removal-with-photoshop/">
-            <li>Photoshop</li>
+          <a href="https://github.com/JacobStephens2/15east/blob/master/src/pages/index.js">
+            <li>GraphQL</li>
           </a>
-          <a href="https://chestercounty-life.com/past-issues/#pdf-chester-county-life-september-october-2021/1/">
-            <li>InDesign</li>
+          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/components/Section.js">
+            <li>Bootstrap</li>
           </a>
-          <a href="https://stewardgoods.com/converting-my-book-of-the-churchs-year-into-a-coloring-book/">
-            <li>Illustrator</li>
+          <a href="https://www.dropbox.com/s/86nicx04c1yex31/CertificateOfCompletion_Learning%20Python.pdf?dl=0">
+            <li>Python</li>
           </a>
         </section>
       </section>
