@@ -70,7 +70,7 @@ const ResumePage = () => {
           </li>
           <li>
             <a href="https://coachscall.gatsbyjs.io">Producing</a> a progressive
-            web app for an athletic mentoring program with&nbsp;Bootstrap
+            web app for an athletic mentoring program
           </li>
         </ul>
         <h3 id="graphic-designer">Graphic Designer</h3>
@@ -122,7 +122,10 @@ const ResumePage = () => {
         </ul>
 
         <h3>Computer Support Analyst</h3>
-        <p>Alvernia University | May 2018 – Nov 2018</p>
+        <p>
+          <a href="https://www.alvernia.edu/">Alvernia University</a> | May 2018
+          – Nov 2018
+        </p>
         <ul>
           <li>Fixed people's computer problems remotely and&nbsp;on-site</li>
           <li>Maintained campus computers through&nbsp;re-imaging</li>
@@ -130,7 +133,10 @@ const ResumePage = () => {
         </ul>
 
         <h3>Computer Technician</h3>
-        <p>Kingdom Supply | Jan 2018 – Sep 2018</p>
+        <p>
+          <a href="https://www.ksupplyco.com/">Kingdom Supply</a> | Jan 2018 –
+          Sep 2018
+        </p>
         <ul>
           <li>Refurbished electronics</li>
           <li>
@@ -142,7 +148,12 @@ const ResumePage = () => {
         </ul>
 
         <h3>Sales Associate</h3>
-        <p>Weaver's Orchard Farm Market | Jun 2010 – Nov 2016</p>
+        <p>
+          <a href="https://www.weaversorchard.com/">
+            Weaver's Orchard Farm Market
+          </a>{" "}
+          | Jun 2010 – Nov 2016
+        </p>
         <ul>
           <li>
             Created data driven system to aid in market stand
@@ -155,36 +166,118 @@ const ResumePage = () => {
 
         <h2>Education</h2>
 
-        <h3>DevOps Engineer Certificate</h3>
-        <p>LinkedIn Learning | In Progress</p>
+        <h3>
+          <a href="https://www.linkedin.com/learning/paths/become-a-devops-engineer?u=95224929">
+            DevOps Engineer
+          </a>{" "}
+          Certificate
+        </h3>
+        <p>
+          <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
+          <a href="https://www.dropbox.com/sh/9s13tzejwv1949t/AAAYff5ktfS4IFfOY06lUWKua?dl=0">
+            75% Complete
+          </a>
+        </p>
+        <ul>
+          <li>
+            Learning infrastructure automation with Puppet, Chef, Docker,
+            and&nbsp;Kubernetes
+          </li>
+          <li>
+            Covering reliability engineering through Elastic Stack, Nagios,
+            Graphite, Grafana, and&nbsp;Ansible
+          </li>
+          <li>
+            Studying continuous delivery with version control, Jenkins,
+            and&nbsp;AWS
+          </li>
+        </ul>
 
-        <h3>Full-Stack Developer Certificate</h3>
-        <p>LinkedIn Learning | Oct 2021</p>
+        <h3>
+          <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">
+            Full-Stack Developer
+          </a>{" "}
+          <a href="https://www.dropbox.com/sh/4grkpaus3pm4awd/AADSbQLmcXhxSK93OMH1U5XZa?dl=0">
+            Certificate
+          </a>
+        </h3>
+        <p>
+          <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |
+          Oct 2021
+        </p>
 
-        <h3>CompTIA A+ IT Technician Certification</h3>
-        <p>Berks Technical Institute | Aug 2017 – Nov 2017</p>
+        <h3>
+          <a href="https://www.comptia.org/certifications/a">CompTIA A+</a>{" "}
+          <a href="https://jacobcstephens.com/posts/comptia-a-plus-computer-technician-certification/">
+            IT Technician Certification
+          </a>
+        </h3>
+        <p>
+          <a href="https://www.berks.edu/">Berks Technical Institute</a> | Aug
+          2017 – Nov 2017
+        </p>
 
-        <h3>Bachelor of Arts in Sociology</h3>
-        <p>Gordon College | Aug 2012 – Aug 2017</p>
+        <h3>
+          <a href="https://www.dropbox.com/s/ztgdrrjjxs5jgxg/JacobStephens-CollegeTranscript.pdf?dl=0">
+            Bachelor of Arts
+          </a>{" "}
+          in{" "}
+          <a href="https://jacobcstephens.com/posts/on-sexuality-and-criminality/">
+            Sociology
+          </a>
+        </h3>
+        <p>
+          <a href="https://gordon.edu/">Gordon College</a> | Aug 2012 – Aug 2017
+        </p>
 
         <h2>Skills</h2>
         {/* 15 skills (limit to 15) */}
         <section className="skill-list">
-          <li>JavaScript (ES6+)</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React.js</li>
-          <li>SQL</li>
-          <li>Gatsby.js</li>
-          <li>PHP</li>
-          <li>Git</li>
-          <li>WordPress</li>
-          <li>Core Web Vitals</li>
-          <li>PCI compliance</li>
-          <li>WCAG</li>
-          <li>Photoshop</li>
-          <li>InDesign</li>
-          <li>Illustrator</li>
+          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/components/BottomBar.js">
+            <li>JavaScript (ES6+)</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/jacobstephens-resume/blob/main/src/pages/index.js">
+            <li>HTML</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/styles/style.scss">
+            <li>CSS</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/the-well-played-game/blob/main/src/pages/jackpot.js">
+            <li>React.js</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/artifacts_private/query_functions.php">
+            <li>SQL</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/gatsby-config.js">
+            <li>Gatsby.js</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/public/object_uses/new.php">
+            <li>PHP</li>
+          </a>
+          <a href="https://github.com/JacobStephens2">
+            <li>Git</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/real-estate-wp-theme/blob/main/index.php">
+            <li>WordPress</li>
+          </a>
+          <a href="https://content.stewardgoods.com/wp-content/uploads/2021/10/stewardgoods.com_2021-10-22_15-54-22.report.html">
+            <li>Core Web Vitals</li>
+          </a>
+          <a href="https://chestercounty-life.com/subscribe/">
+            <li>PCI compliance</li>
+          </a>
+          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/styles/accessibility.css">
+            <li>WCAG</li>
+          </a>
+          <a href="https://stewardgoods.com/corsage-removal-with-photoshop/">
+            <li>Photoshop</li>
+          </a>
+          <a href="https://chestercounty-life.com/past-issues/#pdf-chester-county-life-september-october-2021/1/">
+            <li>InDesign</li>
+          </a>
+          <a href="https://stewardgoods.com/converting-my-book-of-the-churchs-year-into-a-coloring-book/">
+            <li>Illustrator</li>
+          </a>
         </section>
       </section>
     </>
