@@ -7,8 +7,8 @@ const ResumePage = () => {
   return (
     <>
       <Seo
-        title="Jacob Stephens Resume"
-        description="Jacob Stephens Resume"
+        title="Jacob Stephens' Resume"
+        description="Jacob Stephens' Resume"
         image="../images/stewardgoods-icon.png"
         pathname="/"
       />
@@ -110,7 +110,7 @@ const ResumePage = () => {
           <a href="https://stewardgoods.com/">Steward Goods</a> | May 2018 – Mar
           2020
         </p>
-        <ul>
+        <ul className="page-break-after">
           <li>
             Bought items in bulk from people liquidating their&nbsp;possessions
           </li>
@@ -159,8 +159,7 @@ const ResumePage = () => {
             Created data driven system to aid in market stand
             product&nbsp;selection
           </li>
-          <li>Sold produce</li>
-          <li>Cared for plants</li>
+          <li>Sold produce and cared for plants</li>
           <li>Reorganized storage to increase ease of&nbsp;use</li>
         </ul>
 
@@ -185,7 +184,7 @@ const ResumePage = () => {
           </li>
           <li>
             Covering reliability engineering through Elastic Stack, Nagios,
-            Graphite, Grafana, and&nbsp;Ansible
+            and&nbsp;Grafana
           </li>
           <li>
             Studying continuous delivery with version control, Jenkins,

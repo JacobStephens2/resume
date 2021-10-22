@@ -75,16 +75,22 @@ p {
     margin-top: 0;
   }
   h2 {
-    margin-top: 0.3rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   h3 {
-    margin: 0.3rem 0 0;
+    margin: 0;
+  }
+  ul {
+    margin-bottom: 0.5rem;
   }
   li {
     padding-top: 0;
   }
   .content {
     padding-bottom: 0;
+  }
+  .page-break-after {
+    page-break-after: always;
   }
 }
