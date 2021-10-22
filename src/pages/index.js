@@ -2,6 +2,9 @@ import React from "react"
 import "./remedy.css"
 import "./style.css"
 import Seo from "../components/seo"
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const ResumePage = () => {
   return (
@@ -58,19 +61,19 @@ const ResumePage = () => {
           </li>
           <li>
             <a href="https://artifacts.stewardgoods.com">Engineered</a> a
-            content management system using PHP and MySQL 
+            content management system using PHP and&nbsp;MySQL 
           </li>
           <li>
             <a href="https://jacobcstephens.com">Increased</a> the performance
-            of a WordPress site 60% by making it headless with Gatsby.js
+            of a WordPress site 60% by making it headless with&nbsp;Gatsby.js
           </li>
           <li>
             <a href="https://15east.gatsbyjs.io">Creating</a> web app to match
-            company style guide
+            company style&nbsp;guide
           </li>
           <li>
             <a href="https://coachscall.gatsbyjs.io">Producing</a> a progressive
-            web app for an athletic mentoring program with Bootstrap
+            web app for an athletic mentoring program with&nbsp;Bootstrap
           </li>
         </ul>
         <h3 id="graphic-designer">Graphic Designer</h3>
@@ -83,24 +86,25 @@ const ResumePage = () => {
             <a href="https://stewardgoods.com/corsage-removal-with-photoshop/">
               Edited
             </a>{" "}
-            photos with Photoshop, making photos usable in new contexts
+            photos with Photoshop, making photos usable in new&nbsp;contexts
           </li>
           <li>
             <a href="https://stewardgoods.com/two-person-agile-product-development-flowchart/">
               Planned
             </a>{" "}
-            content layouts with InDesign, capturing complex ideas in diagrams
+            content layouts with InDesign, capturing complex ideas
+            in&nbsp;diagrams
           </li>
           <li>
             <a href="https://stewardgoods.com/montgomery-school-map/">Drew</a>{" "}
-            illustrations with Illustrator, making spaces more navigable
+            illustrations with Illustrator, making spaces more&nbsp;navigable
           </li>
           <li>
             <a href="https://chestercounty-life.com/past-issues/#pdf-chester-county-life-september-october-2021/1/">
               Designed
             </a>{" "}
             products according to style guides, keeping branding consistent
-            through materials
+            through&nbsp;materials
           </li>
         </ul>
 
@@ -111,9 +115,9 @@ const ResumePage = () => {
         </p>
         <ul>
           <li>
-            Bought items in bulk from people liquidating their possessions
+            Bought items in bulk from people liquidating their&nbsp;possessions
           </li>
-          <li>Sold items individually through online retail</li>
+          <li>Sold items individually through online&nbsp;retail</li>
           <li>
             Operated an online store and facilitated over $35,000 of board game
             sales, plus more in other&nbsp;categories
@@ -123,9 +127,9 @@ const ResumePage = () => {
         <h3>Computer Support Analyst</h3>
         <p>Alvernia University | May 2018 – Nov 2018</p>
         <ul>
-          <li>Fixed people's computer problems remotely and on-site</li>
-          <li>Maintained campus computers through re-imaging</li>
-          <li>Managed technology inventory</li>
+          <li>Fixed people's computer problems remotely and&nbsp;on-site</li>
+          <li>Maintained campus computers through&nbsp;re-imaging</li>
+          <li>Managed technology&nbsp;inventory</li>
         </ul>
 
         <h3>Computer Technician</h3>
@@ -133,10 +137,10 @@ const ResumePage = () => {
         <ul>
           <li>Refurbished electronics</li>
           <li>
-            Collected and analyzed refurbishing department data using Excel
+            Collected and analyzed refurbishing department data using&nbsp;Excel
           </li>
           <li>
-            Created imaging process to speed up new employee computer setup
+            Created imaging process to speed up new employee computer&nbsp;setup
           </li>
         </ul>
 
@@ -144,11 +148,12 @@ const ResumePage = () => {
         <p>Weaver's Orchard Farm Market | Jun 2010 – Nov 2016</p>
         <ul>
           <li>
-            Created data driven system to aid in market stand product selection
+            Created data driven system to aid in market stand
+            product&nbsp;selection
           </li>
           <li>Sold produce</li>
           <li>Cared for plants</li>
-          <li>Reorganized storage to increase ease of use</li>
+          <li>Reorganized storage to increase ease of&nbsp;use</li>
         </ul>
 
         <h2>Education</h2>
@@ -166,13 +171,32 @@ const ResumePage = () => {
         <p>Gordon College | Aug 2012 – Aug 2017</p>
 
         <h2>Skills</h2>
-        <p>
+        <section className="skill-list">
           {/* 15 skills (limit to 15) */}
-          JavaScript (ES6+), HTML, CSS, Git, React.js, Gatsby.js, PHP, MySQL,
-          Payment Card Industry compliance (PCI), WordPress, Google Core Web
-          Vitals, web content accessibility guidelines (WCAG), Photoshop,
-          InDesign,&nbsp;Illustrator
-        </p>
+          <Row>
+            <Col sm={4}>
+              <li>JavaScript (ES6+)</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>SQL</li>
+            </Col>
+            <Col sm={4}>
+              <li>Gatsby.js</li>
+              <li>PHP</li>
+              <li>Git</li>
+              <li>WordPress</li>
+              <li>Core Web Vitals</li>
+            </Col>
+            <Col sm={4}>
+              <li>PCI compliance</li>
+              <li>WCAG</li>
+              <li>Photoshop</li>
+              <li>InDesign</li>
+              <li>Illustrator</li>
+            </Col>
+          </Row>
+        </section>
       </section>
     </>
   )
