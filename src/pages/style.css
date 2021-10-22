@@ -55,7 +55,22 @@ p {
 .nowrap {
   white-space: nowrap;
 }
+
+@media screen and (min-width: 445px) {
+  .skill-list {
+    columns: 2;
+  }
+}
+@media screen and (min-width: 590px) {
+  .skill-list {
+    columns: 3;
+  }
+}
+
 @media print {
+  .skill-list {
+    columns: 3;
+  }
   h1 {
     margin-top: 0;
   }

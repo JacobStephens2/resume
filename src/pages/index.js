@@ -2,9 +2,6 @@ import React from "react"
 import "./remedy.css"
 import "./style.css"
 import Seo from "../components/seo"
-import Col from "react-bootstrap/Col"
-import Row from "react-bootstrap/Row"
-import "bootstrap/dist/css/bootstrap.min.css"
 
 const ResumePage = () => {
   return (
@@ -171,31 +168,23 @@ const ResumePage = () => {
         <p>Gordon College | Aug 2012 – Aug 2017</p>
 
         <h2>Skills</h2>
+        {/* 15 skills (limit to 15) */}
         <section className="skill-list">
-          {/* 15 skills (limit to 15) */}
-          <Row>
-            <Col sm={4}>
-              <li>JavaScript (ES6+)</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React.js</li>
-              <li>SQL</li>
-            </Col>
-            <Col sm={4}>
-              <li>Gatsby.js</li>
-              <li>PHP</li>
-              <li>Git</li>
-              <li>WordPress</li>
-              <li>Core Web Vitals</li>
-            </Col>
-            <Col sm={4}>
-              <li>PCI compliance</li>
-              <li>WCAG</li>
-              <li>Photoshop</li>
-              <li>InDesign</li>
-              <li>Illustrator</li>
-            </Col>
-          </Row>
+          <li>JavaScript (ES6+)</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React.js</li>
+          <li>SQL</li>
+          <li>Gatsby.js</li>
+          <li>PHP</li>
+          <li>Git</li>
+          <li>WordPress</li>
+          <li>Core Web Vitals</li>
+          <li>PCI compliance</li>
+          <li>WCAG</li>
+          <li>Photoshop</li>
+          <li>InDesign</li>
+          <li>Illustrator</li>
         </section>
       </section>
     </>
