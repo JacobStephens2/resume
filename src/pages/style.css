@@ -55,6 +55,9 @@ p {
 .nowrap {
   white-space: nowrap;
 }
+.contact-info {
+  margin-right: 0;
+}
 
 @media screen and (min-width: 445px) {
   .skill-list {

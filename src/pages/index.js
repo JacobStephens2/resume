@@ -15,12 +15,12 @@ const ResumePage = () => {
 
       <section className="content">
         <h1>Jacob Stephens</h1>
-        <p>
+        <p className="contact-info">
           <a href="https://stewardgoods.com">stewardgoods.com</a>
            | 
           <a href="mailto:jacob@stewardgoods.com">jacob@stewardgoods.com</a>
            | 
-          <a href="tel:484-356-7773">484.356.7773</a>
+          <a href="tel:484-356-7773">484.356.7773</a> | Lancaster,&nbsp;PA
         </p>
 
         <h2>Work</h2>
@@ -28,7 +28,8 @@ const ResumePage = () => {
         <h3>Full-Stack Web Developer</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | Mar 2020 –
-          Present
+          Present |{" "}
+          <a href="https://goo.gl/maps/SPNKz1YgRcM9ZoWEA">Lancaster, PA</a>
         </p>
         <ul>
           <li>
@@ -77,7 +78,8 @@ const ResumePage = () => {
         <h3 id="graphic-designer">Graphic Designer</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | Sep 2019 –
-          Present
+          Present |{" "}
+          <a href="https://goo.gl/maps/SPNKz1YgRcM9ZoWEA">Lancaster, PA</a>
         </p>
         <ul>
           <li>
@@ -109,7 +111,7 @@ const ResumePage = () => {
         <h3>Ecommerce Business Owner</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | May 2018 – Mar
-          2020
+          2020 | Elverson, PA
         </p>
         <ul className="page-break-after">
           <li>
@@ -125,7 +127,8 @@ const ResumePage = () => {
         <h3>Computer Support Analyst</h3>
         <p>
           <a href="https://www.alvernia.edu/">Alvernia University</a> | May 2018
-          – Nov 2018
+          – Nov 2018 |{" "}
+          <a href="https://goo.gl/maps/ehR7BUSjXRaQSBE29">Reading, PA</a>
         </p>
         <ul>
           <li>Fixed people's computer problems remotely and&nbsp;on-site</li>
@@ -136,7 +139,8 @@ const ResumePage = () => {
         <h3>Computer Technician</h3>
         <p>
           <a href="https://www.ksupplyco.com/">Kingdom Supply</a> | Jan 2018 –
-          Sep 2018
+          Sep 2018 |{" "}
+          <a href="https://goo.gl/maps/AMsfntwB8UdFx26y7">Schaefferstown, PA</a>
         </p>
         <ul>
           <li>Refurbished electronics</li>
@@ -153,7 +157,8 @@ const ResumePage = () => {
           <a href="https://www.weaversorchard.com/">
             Weaver's Orchard Farm Market
           </a>{" "}
-          | Jun 2010 – Nov 2016
+          | Jun 2010 – Nov 2016 |{" "}
+          <a href="https://goo.gl/maps/Axndxy6UZsA7HTny7">Morgantown, PA</a>
         </p>
         <ul>
           <li>
@@ -176,7 +181,8 @@ const ResumePage = () => {
           <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
           <a href="https://www.dropbox.com/sh/9s13tzejwv1949t/AAAYff5ktfS4IFfOY06lUWKua?dl=0">
             75% Complete
-          </a>
+          </a>{" "}
+          | Remote
         </p>
         <ul>
           <li>
@@ -203,7 +209,7 @@ const ResumePage = () => {
         </h3>
         <p>
           <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |
-          Oct 2021
+          Oct 2021 | Remote
         </p>
 
         <h3>
@@ -214,7 +220,8 @@ const ResumePage = () => {
         </h3>
         <p>
           <a href="https://www.berks.edu/">Berks Technical Institute</a> | Aug
-          2017 – Nov 2017
+          2017 – Nov 2017 |{" "}
+          <a href="https://goo.gl/maps/hFwEoDRu8s3Q36V87">Wyomissing, PA</a>
         </p>
 
         <h3>
@@ -228,6 +235,7 @@ const ResumePage = () => {
         </h3>
         <p>
           <a href="https://gordon.edu/">Gordon College</a> | Aug 2012 – Aug 2017
+          | <a href="https://goo.gl/maps/qSZ9FPhr4F78LeveA">Wenham, MA</a>
         </p>
 
         <h2>Skills</h2>
