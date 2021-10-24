@@ -179,22 +179,22 @@ const ResumePage = () => {
         </h3>
         <p>
           <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
-          <a href="https://www.dropbox.com/sh/9s13tzejwv1949t/AAAYff5ktfS4IFfOY06lUWKua?dl=0">
-            75% Complete
+          <a href="https://stewardgoods.com/static/8f68aef999b35e7cee1701427965579a/CertificateOfCompletion_Become-a-DevOps-Engineer.pdf">
+            Oct 2021
           </a>{" "}
           | Remote
         </p>
         <ul>
           <li>
-            Learning infrastructure automation with Puppet, Chef, Docker,
+            Learned infrastructure automation with Puppet, Chef, Docker,
             and&nbsp;Kubernetes
           </li>
           <li>
-            Covering reliability engineering through Elastic Stack, Nagios,
+            Covered reliability engineering through Elastic Stack, Nagios,
             and&nbsp;Grafana
           </li>
           <li>
-            Studying continuous delivery with version control, Jenkins,
+            Studied continuous delivery with version control, Jenkins,
             and&nbsp;AWS
           </li>
         </ul>
