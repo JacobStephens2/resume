@@ -22,9 +22,7 @@ const ResumePage = () => {
            | 
           <a href="tel:484-356-7773">484.356.7773</a> | Lancaster,&nbsp;PA
         </p>
-
         <h2>Work</h2>
-
         <h3>Full-Stack Web Developer</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | Mar 2020 –
@@ -107,7 +105,6 @@ const ResumePage = () => {
             through&nbsp;materials
           </li>
         </ul>
-
         <h3>Ecommerce Business Owner</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | May 2018 – Mar
@@ -123,7 +120,6 @@ const ResumePage = () => {
             sales, plus more in other&nbsp;categories
           </li>
         </ul>
-
         <h3>Computer Support Analyst</h3>
         <p>
           <a href="https://www.alvernia.edu/">Alvernia University</a> | May 2018
@@ -135,7 +131,6 @@ const ResumePage = () => {
           <li>Maintained campus computers through&nbsp;re-imaging</li>
           <li>Managed technology&nbsp;inventory</li>
         </ul>
-
         <h3>Computer Technician</h3>
         <p>
           <a href="https://www.ksupplyco.com/">Kingdom Supply</a> | Jan 2018 –
@@ -151,7 +146,6 @@ const ResumePage = () => {
             Created imaging process to speed up new employee computer&nbsp;setup
           </li>
         </ul>
-
         <h3>Sales Associate</h3>
         <p>
           <a href="https://www.weaversorchard.com/">
@@ -168,36 +162,36 @@ const ResumePage = () => {
           <li>Sold produce and cared for plants</li>
           <li>Reorganized storage to increase ease of&nbsp;use</li>
         </ul>
-
         <h2>Education</h2>
+
+        <h3>
+          <a href="https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-developer-associate-exam?u=95224929">
+            AWS Certified Developer - Associate
+          </a>
+        </h3>
+        <p>
+          <a href="https://aws.amazon.com/certification/certified-developer-associate/?ch=sec&sec=rmg&d=1">
+            Amazon Web Services
+          </a>{" "}
+          |{" "}
+          <a href="https://www.dropbox.com/sh/l13ewio70dv7puo/AABNuUvlvmaY_984uHm-ZnUYa?dl=0">
+            In Progress
+          </a>{" "}
+          | Remote
+        </p>
 
         <h3>
           <a href="https://www.linkedin.com/learning/paths/become-a-devops-engineer?u=95224929">
             DevOps Engineer
           </a>{" "}
-          Certificate
+          <a href="https://stewardgoods.com/static/8f68aef999b35e7cee1701427965579a/CertificateOfCompletion_Become-a-DevOps-Engineer.pdf">
+            Certificate
+          </a>
         </h3>
         <p>
           <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
-          <a href="https://stewardgoods.com/static/8f68aef999b35e7cee1701427965579a/CertificateOfCompletion_Become-a-DevOps-Engineer.pdf">
-            Oct 2021
-          </a>{" "}
-          | Remote
+          Oct 2021 | Remote
         </p>
-        <ul>
-          <li>
-            Learned infrastructure automation with Puppet, Chef, Docker,
-            and&nbsp;Kubernetes
-          </li>
-          <li>
-            Covered reliability engineering through Elastic Stack, Nagios,
-            and&nbsp;Grafana
-          </li>
-          <li>
-            Studied continuous delivery with version control, Jenkins,
-            and&nbsp;AWS
-          </li>
-        </ul>
 
         <h3>
           <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">
@@ -214,7 +208,7 @@ const ResumePage = () => {
 
         <h3>
           <a href="https://www.comptia.org/certifications/a">CompTIA A+</a>{" "}
-          <a href="https://jacobcstephens.com/posts/comptia-a-plus-computer-technician-certification/">
+          <a href="https://stewardgoods.com/comptia-a-it-technician-certification/">
             IT Technician Certification
           </a>
         </h3>
