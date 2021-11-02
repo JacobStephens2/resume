@@ -181,19 +181,6 @@ const ResumePage = () => {
         </p>
 
         <h3>
-          <a href="https://www.linkedin.com/learning/paths/become-a-devops-engineer?u=95224929">
-            DevOps Engineer
-          </a>{" "}
-          <a href="https://stewardgoods.com/static/8f68aef999b35e7cee1701427965579a/CertificateOfCompletion_Become-a-DevOps-Engineer.pdf">
-            Certificate
-          </a>
-        </h3>
-        <p>
-          <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
-          Oct 2021 | Remote
-        </p>
-
-        <h3>
           <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">
             Full-Stack Developer
           </a>{" "}
@@ -204,6 +191,22 @@ const ResumePage = () => {
         <p>
           <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |
           Oct 2021 | Remote
+        </p>
+
+        <h3>
+          <a href="https://www.linkedin.com/learning/paths/become-a-junior-wordpress-developer?u=95224929">
+            WordPress
+          </a>{" "}
+          <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">
+            Developer
+          </a>{" "}
+          <a href="https://www.dropbox.com/sh/7qlrf831kuijdk4/AADppaD6oDWY7FX0H-Sqko0da?dl=0">
+            Certificates
+          </a>
+        </h3>
+        <p>
+          <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> |{" "}
+          Apr 2020 - Apr 2021 | Remote
         </p>
 
         <h3>
@@ -236,7 +239,7 @@ const ResumePage = () => {
         {/* 15 skills (limit to 15) */}
         <section className="skill-list">
           <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/components/BottomBar.js">
-            <li>JavaScript (ES6+)</li>
+            <li>JavaScript</li>
           </a>
           <a href="https://github.com/JacobStephens2/jacobstephens-resume/blob/main/src/pages/index.js">
             <li>HTML</li>
@@ -274,11 +277,11 @@ const ResumePage = () => {
           <a href="https://github.com/JacobStephens2/15east/blob/master/src/pages/index.js">
             <li>GraphQL</li>
           </a>
-          <a href="https://github.com/JacobStephens2/coachs-call/blob/master/src/components/Section.js">
-            <li>Bootstrap</li>
+          <a href="https://www.dropbox.com/s/87gpwrwt4dc5ztr/CertificateOfCompletion_Become%20a%20Leader.pdf?dl=0">
+            <li>Leadership</li>
           </a>
-          <a href="https://www.dropbox.com/s/86nicx04c1yex31/CertificateOfCompletion_Learning%20Python.pdf?dl=0">
-            <li>Python</li>
+          <a href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/artifacts_private/query_functions.php">
+            <li>MySQL</li>
           </a>
         </section>
       </section>
