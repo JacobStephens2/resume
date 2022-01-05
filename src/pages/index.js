@@ -23,10 +23,27 @@ const ResumePage = () => {
           <a href="tel:484-356-7773">484.356.7773</a> | Lancaster,&nbsp;PA
         </p>
         <h2>Work</h2>
+        <h3><a href="https://www.dropbox.com/s/5bmnotwzas2zco0/Web%20Programmer_Developer%20-%20Conestoga%2C%20PA%20-%20Indeed.com.pdf?dl=0">Web Developer and Client Support Specialist</a></h3>
+        <p>
+          <a href="https://sharpinnovations.com/">Sharp Innovations</a> | Nov 2021 –
+          Present |{" "}
+          <a href="https://g.page/SharpInnovationsInc?share">Conestoga, PA</a>
+        </p>
+        <ul>
+          <li>
+            Developed a method for database migration which cut the process from hours to&nbsp;minutes using SQL and PHP
+          </li>
+          <li>
+            Supported web customers ranging from aesthetic site revisions to security patches to Linux command line email&nbsp;troubleshooting
+          </li>
+          <li>
+            Structured team work process by creating a task board to organize work more effectively than the previous email inbox task management&nbsp;system
+          </li>
+        </ul>
         <h3>Full-Stack Web Developer</h3>
         <p>
           <a href="https://stewardgoods.com/">Steward Goods</a> | Mar 2020 –
-          Present |{" "}
+          Nov 2021 |{" "}
           <a href="https://goo.gl/maps/SPNKz1YgRcM9ZoWEA">Lancaster, PA</a>
         </p>
         <ul>
@@ -69,7 +86,7 @@ const ResumePage = () => {
             company style&nbsp;guide
           </li>
           <li>
-            <a href="https://coachscall.gatsbyjs.io">Producing</a> a progressive
+            <a href="https://coachscall.gatsbyjs.io">Produced</a> a progressive
             web app for an athletic mentoring program
           </li>
         </ul>
@@ -175,7 +192,7 @@ const ResumePage = () => {
           </a>{" "}
           |{" "}
           <a href="https://www.dropbox.com/sh/l13ewio70dv7puo/AABNuUvlvmaY_984uHm-ZnUYa?dl=0">
-            Oct 2021 - Present
+            In Progress
           </a>{" "}
           | Remote
         </p>
@@ -184,7 +201,7 @@ const ResumePage = () => {
           <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">
             Full-Stack Developer
           </a>{" "}
-          <a href="https://www.dropbox.com/sh/4grkpaus3pm4awd/AADSbQLmcXhxSK93OMH1U5XZa?dl=0">
+          <a href="https://content.stewardgoods.com/wp-content/uploads/2021/11/CertificateOfCompletion_Become-a-FullStack-Web-Developer.pdf">
             Certificate
           </a>
         </h3>
@@ -277,8 +294,8 @@ const ResumePage = () => {
           <a href="https://github.com/JacobStephens2/15east/blob/master/src/pages/index.js">
             <li>GraphQL</li>
           </a>
-          <a href="https://www.dropbox.com/s/87gpwrwt4dc5ztr/CertificateOfCompletion_Become%20a%20Leader.pdf?dl=0">
-            <li>Leadership</li>
+          <a href="https://github.com/JacobStephens2/bgg-minimal-v2/tree/master/scripts">
+            <li>Linux</li>
           </a>
           <a href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/artifacts_private/query_functions.php">
             <li>MySQL</li>
