@@ -20,7 +20,8 @@ const ResumePage = () => {
            | 
           <a href="mailto:jacob@stewardgoods.com">jacob@stewardgoods.com</a>
            | 
-          <a href="tel:484-356-7773">484.356.7773</a> | Lancaster,&nbsp;PA
+          <a href="tel:484-356-7773">484.356.7773</a>
+           | Lancaster,&nbsp;PA
         </p>
 
         <h2>Work</h2>
@@ -109,8 +110,8 @@ const ResumePage = () => {
 
         <h3 id="graphic-designer">Graphic Designer</h3>
         <p>
-          <a href="https://stewardgoods.com/">Steward Goods</a> | Sep 2019 –
-          Present |{" "}
+          <a href="https://stewardgoods.com/">Steward Goods</a> | Sep 2019 – Nov
+          2021 |{" "}
           <a href="https://goo.gl/maps/SPNKz1YgRcM9ZoWEA">Lancaster, PA</a>
         </p>
         <ul>
