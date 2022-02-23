@@ -82,7 +82,7 @@ const ResumePage = () => {
             and&nbsp;Gatsby.js
           </li>
           <li>
-            <a href="https://15east.gatsbyjs.io">Creating</a> web app to match
+            <a href="https://15eastcreative.com">Creating</a> web app to match
             company style&nbsp;guide
           </li>
           <li>
