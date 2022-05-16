@@ -277,9 +277,7 @@ const ResumePage = () => {
           <a href="https://github.com/JacobStephens2/15east/blob/master/src/pages/index.js">
             <li>GraphQL</li>
           </a>
-          <a href="https://github.com/JacobStephens2/bgg-minimal-v2/tree/master/scripts">
-            <li>Linux</li>
-          </a>
+          <li>Linux</li>
           <a href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/artifacts_private/query_functions.php">
             <li>MySQL</li>
           </a>
