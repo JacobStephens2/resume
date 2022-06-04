@@ -200,7 +200,7 @@ const ResumePage = () => {
           <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">
             Developer
           </a>{" "}
-          <a href="https://www.dropbox.com/sh/7qlrf831kuijdk4/AADppaD6oDWY7FX0H-Sqko0da?dl=0">
+          <a href="https://www.dropbox.com/sh/8exwbue7u3sesd4/AACHQBJLWY5Z7AAGw_iKVTHna?dl=0">
             Certificates
           </a>
         </h3>
