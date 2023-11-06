@@ -1,0 +1,236 @@
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+html {
+    line-sizing: normal
+}
+
+[hidden] {
+    display: none
+}
+
+h1 {
+    font-size: 2rem
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+h3 {
+    font-size: 1.17rem
+}
+
+h4 {
+    font-size: 1rem
+}
+
+h5 {
+    font-size: .83rem
+}
+
+h6 {
+    font-size: .67rem
+}
+
+h1 {
+    margin: .67em 0
+}
+
+pre {
+    white-space: pre-wrap
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px 0 0;
+    color: inherit;
+    height: 0;
+    overflow: visible
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+    vertical-align: middle
+}
+
+audio:not([controls]) {
+    display: none
+}
+
+picture {
+    display: contents
+}
+
+source {
+    display: none
+}
+
+canvas,
+img,
+svg,
+video {
+    height: auto
+}
+
+audio {
+    width: 100%
+}
+
+img {
+    border-style: none
+}
+
+svg {
+    overflow: hidden
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 612px;
+    padding: 0
+}
+
+a:visited {
+    text-decoration: none
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-top: .85rem
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: .65rem 0 0
+}
+
+h4 {
+    font-size: 1.05rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 1rem
+}
+
+li {
+    padding-top: 5px
+}
+
+li:first-of-type {
+    padding-top: 0
+}
+
+p {
+    margin: 0 1rem .5rem 0
+}
+
+.content {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.date {
+    display: inline
+}
+
+.date,
+.nowrap {
+    white-space: nowrap
+}
+
+.contact-info {
+    margin-right: 0
+}
+
+@media screen and (min-width:445px) {
+    .skill-list {
+        -webkit-columns: 2;
+        column-count: 2
+    }
+}
+
+@media screen and (min-width:590px) {
+    .skill-list {
+        -webkit-columns: 3;
+        column-count: 3;
+        max-height: 155px
+    }
+}
+
+@media print {
+    .skill-list {
+        -webkit-columns: 3;
+        column-count: 3
+    }
+
+    h1,
+    h2 {
+        margin-top: 0
+    }
+
+    h2 {
+        margin-bottom: 0
+    }
+
+    h3 {
+        margin: 0
+    }
+
+    ul {
+        margin-bottom: .5rem
+    }
+
+    li {
+        padding-top: 0
+    }
+
+    .content {
+        padding-bottom: 0
+    }
+}
