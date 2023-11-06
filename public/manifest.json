@@ -1,0 +1,17 @@
+{
+    "name": "Jacob Stephens' Resume",
+    "short_name": "Jacob's Resume",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/files/stewardgoods-icon.png",
+        "type": "image/png", 
+        "sizes": "513x513",
+        "purpose": "any maskable"
+      }
+    ]
+  }
