@@ -36,6 +36,12 @@
   <link as="script" rel="preload"
     href="./files/component---cache-caches-gatsby-plugin-offline-app-shell-js.js">
   <link rel="stylesheet" type="text/css" href="./files/styles.css">
+  <style>
+    .page-break-before {
+      page-break-before: always;
+      break-before: page;
+    }
+  </style>
   <link rel="canonical" href="https://resume.jacobstephens.net/" data-react-helmet="true">
   <meta name="description" content="Jacob Stephens&#39; Resume" data-react-helmet="true">
   <meta name="image" content="https://resume.jacobstephens.net/files/stewardgoods-icon.png" data-react-helmet="true">
@@ -218,6 +224,7 @@
             </li>
           </ul>
   
+          <div style="page-break-before: always; break-before: page;"></div>
           <h3>
             <a
               href="https://www.dropbox.com/s/5bmnotwzas2zco0/Web%20Programmer_Developer%20-%20Conestoga%2C%20PA%20-%20Indeed.com.pdf?dl=0">Web
@@ -394,7 +401,8 @@
             filename: 'Jacob-Stephens-Resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 2, useCORS: true },
-            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+            pagebreak: { mode: ['css', 'legacy'] }
           };
           
           downloadBtn.textContent = 'Generating PDF...';
