@@ -59,9 +59,11 @@
       <section class="content">
         
         <h1>Jacob Stephens</h1>
-        
+
+        <button id="download-pdf-btn" style="margin-bottom: 1rem; padding: 0.5rem 1rem; font-size: 1rem; background-color: #F8B429; color: #000; border: none; border-radius: 4px; cursor: pointer; font-weight: 600;">Download PDF</button>
+                
         <p class="contact-info">
-            <a href="mailto:email@jacobstephens.net">email@jacobstephens.net</a> | 
+            <a href="mailto:jacob@stephens.page">jacob@stephens.page</a> | 
             <a href="tel:484-356-7773">484.356.7773</a> | 
             <a href="https://maps.app.goo.gl/3j1Vi1GNcB6NWFdq7"
               target="_blank"
@@ -348,6 +350,8 @@
       >
     </div>
   </div>
+
+
   
   <script async="" src="./files/js"></script>
 
@@ -378,6 +382,45 @@
   <script src="./files/framework.js" async=""></script>
 
   <script src="./files/webpack-runtime.js" async=""></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const downloadBtn = document.getElementById('download-pdf-btn');
+      
+      if (downloadBtn) {
+        downloadBtn.addEventListener('click', function() {
+          const element = document.querySelector('.content');
+          const opt = {
+            margin: 0.5,
+            filename: 'Jacob-Stephens-Resume.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2, useCORS: true },
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+          };
+          
+          downloadBtn.textContent = 'Generating PDF...';
+          downloadBtn.disabled = true;
+          
+          // Hide the button during PDF generation
+          const originalDisplay = downloadBtn.style.display;
+          downloadBtn.style.display = 'none';
+          
+          html2pdf().set(opt).from(element).save().then(function() {
+            downloadBtn.textContent = 'Download PDF';
+            downloadBtn.disabled = false;
+            downloadBtn.style.display = originalDisplay;
+          }).catch(function(error) {
+            console.error('Error generating PDF:', error);
+            downloadBtn.textContent = 'Download PDF';
+            downloadBtn.disabled = false;
+            downloadBtn.style.display = originalDisplay;
+            alert('Error generating PDF. Please try again.');
+          });
+        });
+      }
+    });
+  </script>
 
 </body>
 
