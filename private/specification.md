@@ -17,6 +17,9 @@ Here is the Google Tag for this site's Analytics:
 # Source Material
 The resume should take into account the information in the resume.jacobstephens.net/private/reports folder
 
+# Download PDF Button
+Clicking the download PDF button should download the resume.jacobstephens.net/public/Jacob_Stephens_Resume-2025-Dec-16.pdf file.
+
 # Print View
 The print view should be two pages at most.
 

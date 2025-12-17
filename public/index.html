@@ -312,41 +312,19 @@
     gtag('config', 'G-SCMG0LPKD5');
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const downloadBtn = document.getElementById('download-pdf-btn');
       
       if (downloadBtn) {
         downloadBtn.addEventListener('click', function() {
-          const element = document.querySelector('.content');
-          const opt = {
-            margin: 0.5,
-            filename: 'Jacob-Stephens-Resume.pdf',
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2, useCORS: true },
-            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
-            pagebreak: { mode: ['css', 'legacy'] }
-          };
-          
-          downloadBtn.textContent = 'Generating PDF...';
-          downloadBtn.disabled = true;
-          
-          // Hide the button during PDF generation
-          const originalDisplay = downloadBtn.style.display;
-          downloadBtn.style.display = 'none';
-          
-          html2pdf().set(opt).from(element).save().then(function() {
-            downloadBtn.textContent = 'Download PDF';
-            downloadBtn.disabled = false;
-            downloadBtn.style.display = originalDisplay;
-          }).catch(function(error) {
-            console.error('Error generating PDF:', error);
-            downloadBtn.textContent = 'Download PDF';
-            downloadBtn.disabled = false;
-            downloadBtn.style.display = originalDisplay;
-            alert('Error generating PDF. Please try again.');
-          });
+          // Create a temporary anchor element to trigger download
+          const link = document.createElement('a');
+          link.href = '/Jacob_Stephens_Resume-2025-Dec-16.pdf';
+          link.download = 'Jacob-Stephens-Resume.pdf';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
         });
       }
     });
