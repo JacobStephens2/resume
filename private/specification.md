@@ -24,3 +24,6 @@ Clicking the download PDF button should download the resume.jacobstephens.net/pu
 The print view should be two pages at most.
 
 Hide the download as PDF button from the view of printing this page.
+
+# Link to Portfolio Site, https://stephens.page
+There should be a link somewhere on the resume to Jacob's portfolio site, https://stephens.page
