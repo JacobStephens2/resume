@@ -13,3 +13,6 @@ Here is the Google Tag for this site's Analytics:
 
   gtag('config', 'G-SCMG0LPKD5');
 </script>
+
+# Source Material
+The resume should take into account the information in the resume.jacobstephens.net/private/reports folder
