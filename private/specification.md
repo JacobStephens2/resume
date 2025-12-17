@@ -16,3 +16,8 @@ Here is the Google Tag for this site's Analytics:
 
 # Source Material
 The resume should take into account the information in the resume.jacobstephens.net/private/reports folder
+
+# Print View
+The print view should be two pages at most.
+
+Hide the download as PDF button from the view of printing this page.
