@@ -1,33 +1,37 @@
-const staticJacobStephensResume = "jacob-stephens-resume-v1"
+const CACHE_NAME = "jacob-stephens-resume-v2"
 const assets = [
   "/",
   "/index.html",
   "/manifest.json",
-  "/serviceWorker.js",
+  "/files/styles.css",
   "/files/stewardgoods-icon.png",
+  "/Jacob-Stephens-Resume.pdf",
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticJacobStephensResume).then(cache => {
+    caches.open(CACHE_NAME).then(cache => {
       cache.addAll(assets)
     })
   )
 })
 
-self.addEventListener("fetch", fetchEvent => {
-    fetchEvent.respondWith(
-        caches.match(fetchEvent.request).then(res => {
-        return res || fetch(fetchEvent.request)
-        })
+self.addEventListener("activate", event => {
+  event.waitUntil(
+    caches.keys().then(keys =>
+      Promise.all(
+        keys
+          .filter(key => key !== CACHE_NAME)
+          .map(key => caches.delete(key))
+      )
     )
+  )
 })
 
-if ("serviceWorker" in navigator) {
-window.addEventListener("load", function() {
-    navigator.serviceWorker
-    .register("/serviceWorker.js")
-    .then(res => console.log("service worker registered"))
-    .catch(err => console.log("service worker not registered", err))
+self.addEventListener("fetch", fetchEvent => {
+  fetchEvent.respondWith(
+    caches.match(fetchEvent.request).then(res => {
+      return res || fetch(fetchEvent.request)
+    })
+  )
 })
-}
