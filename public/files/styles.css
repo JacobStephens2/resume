@@ -205,6 +205,18 @@ p {
     white-space: nowrap
 }
 
+#download-pdf-btn {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #F8B429;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600
+}
+
 .contact-info {
     margin-right: 0
 }
