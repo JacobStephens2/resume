@@ -281,9 +281,9 @@ p {
     }
 
     .work h3,
-    .work h3 + p,
-    .work ul {
-        break-inside: avoid
+    .work h3 + p {
+        break-inside: avoid;
+        break-after: avoid
     }
 
     div.print_spacer {
