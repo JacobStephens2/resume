@@ -217,6 +217,15 @@ p {
     font-weight: 600
 }
 
+.page-break-before {
+    page-break-before: always;
+    break-before: page
+}
+
+.content a {
+    text-decoration: none
+}
+
 .contact-info {
     margin-right: 0
 }
@@ -265,6 +274,10 @@ p {
 
     .content {
         padding-bottom: 0
+    }
+
+    #download-pdf-btn {
+        display: none !important
     }
 
     div.print_spacer {
