@@ -280,6 +280,12 @@ p {
         display: none !important
     }
 
+    .work h3,
+    .work h3 + p,
+    .work ul {
+        break-inside: avoid
+    }
+
     div.print_spacer {
         height: 7rem;
     }
