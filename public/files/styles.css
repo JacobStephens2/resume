@@ -116,6 +116,21 @@ section {
     padding: 0
 }
 
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    padding: 0.5rem 1rem;
+    background: #F8B429;
+    color: #000;
+    font-weight: 600;
+    z-index: 100
+}
+
+.skip-link:focus {
+    top: 0
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
