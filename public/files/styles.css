@@ -230,6 +230,14 @@ p {
     margin-right: 0
 }
 
+.summary {
+    font-size: 0.95rem;
+    color: #333;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.5
+}
+
 @media screen and (min-width:445px) {
     .skill-list {
         -webkit-columns: 2;
