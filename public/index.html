@@ -29,159 +29,127 @@
 
 <body>
   <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="sticky-mobile-header" aria-hidden="true">
+    <button class="sticky-download-btn" data-download-resume>Download PDF</button>
+  </div>
   <main id="main-content" class="content">
 
         <header>
           <h1>Jacob Stephens</h1>
 
-          <button id="download-pdf-btn">Download PDF</button>
+          <button id="download-pdf-btn" data-download-resume>Download PDF</button>
         </header>
 
         <p class="contact-info">
-            <a href="mailto:jacob@stephens.page">jacob@stephens.page</a> | 
-            <a href="tel:484-356-7773">484.356.7773</a> | 
+            <a href="mailto:jacob@stephens.page"><span class="contact-icon" aria-hidden="true">✉</span>jacob@stephens.page</a> | 
+            <a href="tel:484-356-7773"><span class="contact-icon" aria-hidden="true">☎</span>484.356.7773</a> | 
             <a href="https://maps.app.goo.gl/3j1Vi1GNcB6NWFdq7"
               target="_blank" rel="noopener"
               >
-              Philadelphia, PA
+              <span class="contact-icon" aria-hidden="true">⌂</span>Philadelphia, PA
             </a>
             <br>
-            <a href="https://stephens.page" target="_blank" rel="noopener">stephens.page</a> | 
-            <a href="https://resume.stephens.page" target="_blank" rel="noopener">resume.stephens.page</a> | 
-            <a href="https://github.com/JacobStephens2" target="_blank" rel="noopener">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/jacob-stephens-0b034a200/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://stephens.page/portfolio.html" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">↗</span>Portfolio</a> | 
+            <a href="https://github.com/JacobStephens2" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">⌘</span>GitHub</a> | 
+            <a href="https://www.linkedin.com/in/jacob-stephens-0b034a200/" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">in</span>LinkedIn</a>
         </p>
 
         <p class="summary">
-          Full-stack engineer with 5+ years building production PHP and TypeScript systems including payment processing,
-          Progressive Web Apps, REST APIs, and Linux server infrastructure. Experienced with AI-assisted development tooling.
+          Senior full-stack engineer building production payment, automation, and internal platform systems in PHP and TypeScript.
+          Experience spans REST APIs, PWAs, Linux infrastructure, PCI-sensitive workflows, and AI-assisted developer tooling.
+          Strong track record improving performance, reducing operational risk, and shipping business-critical product features.
         </p>
 
         <section class="skills">
   
-          <h2>Technical Skills</h2>
-          <section class="skill-list">
-            <ul class="list">
+          <h2>Core Technologies</h2>
+          <section class="skill-groups">
+            <section class="skill-group">
+              <h3>Languages</h3>
+              <ul class="list">
+                <li class="php">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/artifacts.php">PHP</a>
+                </li>
+                <li class="mysql">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/b03868da1bd92936c013dd06385f7260f964b6f5/private/query_functions.php#L929">MySQL</a>
+                </li>
+                <li class="javascript">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/ui/uses/modules/searchArtifactsList.js">JavaScript</a>
+                </li>
+                <li class="typescript">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/src/main.ts">TypeScript</a>
+                </li>
+                <li class="html">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/jacobstephens-resume/blob/main/public/index.html">HTML</a>
+                </li>
+                <li class="css">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-manager-web-app/blob/main/ui/style.css?v=3">CSS</a>
+                </li>
+              </ul>
+            </section>
 
-              <li class="php">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/artifacts.php">
-                  PHP
-                </a>
-              </li>
-  
-              <li class="mysql">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/b03868da1bd92936c013dd06385f7260f964b6f5/private/query_functions.php#L929">
-                  MySQL
-                </a>
-              </li>
-              
-              <li class="javascript">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/ui/uses/modules/searchArtifactsList.js">
-                  JavaScript
-                </a>
-              </li>
+            <section class="skill-group">
+              <h3>Frameworks & Platforms</h3>
+              <ul class="list">
+                <li class="nodejs">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/server/src/index.ts">Node.js / Express</a>
+                </li>
+                <li class="pwa">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Progressive Web Apps</a>
+                </li>
+                <li class="react">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/event-manager-web-app-ui/blob/master/src/views/Events/CreateEvent.js">React</a>
+                </li>
+                <li class="wordpress">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/chestercounty-life-wordpress-theme/commit/6074f5c901b539babf2375b81948fd3fa45cef57">WordPress</a>
+                </li>
+                <li class="pci_compliance">
+                  <a target="_blank" rel="noopener" href="https://etadventures.com/customerweb/">PCI Compliance</a>
+                </li>
+                <li class="ai_tooling">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/magisterium_mcp_server">AI-Assisted Development (Claude Code, MCP)</a>
+                </li>
+              </ul>
+            </section>
 
-              <li class="typescript">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/src/main.ts">
-                  TypeScript
-                </a>
-              </li>
+            <section class="skill-group">
+              <h3>APIs & Application Engineering</h3>
+              <ul class="list">
+                <li class="api_development">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/event-manager-api/blob/main/public/index.php">REST APIs</a>
+                </li>
+                <li class="sqlite">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker">SQLite</a>
+                </li>
+                <li class="api_integration">API Integration (Twilio, Textable)</li>
+                <li class="queue_systems">Queue Systems & Automation</li>
+                <li class="security">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Encryption & Privacy-First Design</a>
+                </li>
+                <li class="core_web_vitals">
+                  <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">Performance Optimization</a>
+                </li>
+              </ul>
+            </section>
 
-              <li class="nodejs">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/server/src/index.ts">
-                  Node.js / Express
-                </a>
-              </li>
-
-              <li class="react">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/event-manager-web-app-ui/blob/master/src/views/Events/CreateEvent.js">
-                  React
-                </a>
-              </li>
-              
-              <li class="html">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/jacobstephens-resume/blob/main/public/index.html">
-                  HTML
-                </a>
-              </li>
-              
-              <li class="css">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-manager-web-app/blob/main/ui/style.css?v=3">
-                  CSS
-                </a>
-              </li>
-
-              <li class="api_development">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/event-manager-api/blob/main/public/index.php">
-                  REST APIs
-                </a>
-              </li>
-
-              <li class="websocket_and_http">
-                HTTP & WebSocket
-              </li>
-              
-              <li class="linux">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-manager-web-app/blob/main/private/crons/crontab-copy.txt">
-                  Linux Administration
-                </a>
-              </li>
-  
-              <li class="apache">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/.htaccess">
-                  Apache
-                </a>
-              </li>
-  
-              <li class="pci_compliance">
-                <a target="_blank" rel="noopener" href="https://etadventures.com/customerweb/">
-                  PCI Compliance
-                </a>
-              </li>
-
-              <li class="git">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/.gitignore">
-                  Git
-                </a>
-              </li>
-              
-              <li class="dns">
-                <a target="_blank" rel="noopener" href="https://aws.amazon.com/route53/">
-                  DNS Management
-                </a>
-              </li>
-    
-              <li class="wordpress">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/chestercounty-life-wordpress-theme/commit/6074f5c901b539babf2375b81948fd3fa45cef57">
-                  WordPress
-                </a>
-              </li>
-
-              <li class="core_web_vitals">
-                <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">
-                  Performance Optimization
-                </a>
-              </li>
-
-              <li class="queue_systems">
-                Queue Systems & Automation
-              </li>
-
-              <li class="caching">
-                Caching Infrastructure
-              </li>
-
-              <li class="api_integration">
-                API Integration (Twilio, Textable)
-              </li>
-
-              <li class="ai_tooling">
-                <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/magisterium_mcp_server">
-                  AI-Assisted Development (Claude Code, MCP)
-                </a>
-              </li>
-
-            </ul>  
+            <section class="skill-group">
+              <h3>Infrastructure & Operations</h3>
+              <ul class="list">
+                <li class="linux">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-manager-web-app/blob/main/private/crons/crontab-copy.txt">Linux Administration</a>
+                </li>
+                <li class="apache">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/.htaccess">Apache</a>
+                </li>
+                <li class="caching">Caching Infrastructure</li>
+                <li class="offline_sync">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Offline Sync</a>
+                </li>
+                <li class="dns">
+                  <a target="_blank" rel="noopener" href="https://aws.amazon.com/route53/">DNS Management</a>
+                </li>
+              </ul>
+            </section>
           </section>
 
         </section>
@@ -201,36 +169,28 @@
           </p>
           <ul>
             <li>
-              Architected automated reservation cancellation system preventing bad debt accumulation, with intelligent business rule logic 
-              running 24/7 automated workflows that protect revenue and improve cash flow management
+              Architected automated reservation cancellation workflows in PHP and MySQL, preventing bad debt accumulation with
+              business-rule-driven automation that protects revenue and improves cash flow management
             </li>
             <li>
-              Built payment notification queue management system with SMS integration (Twilio), transactional email, and voice capabilities, 
+              Built payment notification queue management system with Twilio SMS, transactional email, and voice capabilities,
               enabling self-service configuration and reducing manual work by 80%+ while ensuring timely customer communication
             </li>
             <li>
-              Optimized alert system performance through caching infrastructure and database query improvements, 
+              Optimized alert system performance through caching infrastructure and database query improvements,
               reducing page load times from 5-10 seconds to under 1 second and reducing database load by 70-80%
             </li>
             <li>
-              Delivered 8,339 commits across 300,000+ files over four years (2022-2025), working across multiple codebases 
-              (Tourbot internal tools and customerweb customer-facing platform)
-            </li>
-            <li>
-              Led PCI compliance initiative, architecting secure API integration with TranSafe and Monetra merchant processors 
+              Led PCI compliance initiative, architecting secure API integration with TranSafe and Monetra merchant processors
               across both platforms, implementing security best practices including bank account encryption
             </li>
             <li>
-              Directed enterprise-wide PHP 5 to PHP 8 migration across entire codebase and server infrastructure, 
+              Directed enterprise-wide PHP 5 to PHP 8 migration across entire codebase and server infrastructure,
               modernizing technology stack and improving application performance
             </li>
             <li>
-              Established proactive code quality practices with 12.3x increase in refactoring focus (2024→2025), 
-              208 bug fixes, and 96 documentation commits, maintaining senior-level coding standards
-            </li>
-            <li>
-              Architected scalable REST API for lead management system overhaul and managed development team member, 
-              conducting code reviews and establishing development best practices
+              Owned architecture for internal and customer-facing platforms, conducted code reviews, mentored a development team member,
+              and established development practices for a multi-million-dollar travel business
             </li>
           </ul>
   
@@ -259,16 +219,33 @@
             United States, Remote
           </p>
           <ul>
-            <li><a href="https://dailydozen.jacobstephens.net/">Architected and developed</a> full-stack responsive mobile web application 
-              for nutrition tracking with intuitive user interface, implementing both frontend and backend functionality</li>
+            <li><a href="https://dailydozen.jacobstephens.net/">Architected and developed</a> full-stack responsive nutrition-tracking web app,
+              implementing both frontend and backend functionality for mobile-first use</li>
             <li>
               <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">Optimized</a> 
-              website performance through code optimization and infrastructure improvements, achieving perfect scores (100/100) 
+              website performance through code optimization and infrastructure improvements, achieving perfect scores (100/100)
               on Google Core Web Vitals
             </li>
-            <li><a href="https://chestercounty-life.com/">Engineered</a> PCI-compliant subscription payment system using Stripe API integration 
-              and <a href="https://artifact.stewardgoods.com/">designed custom full-stack content management system</a> 
-              with PHP backend and MySQL database</li>
+            <li><a href="https://chestercounty-life.com/">Engineered</a> PCI-compliant subscription payments with Stripe and
+              <a href="https://artifact.stewardgoods.com/">designed a custom full-stack CMS</a> using PHP and MySQL</li>
+          </ul>
+        </section>
+
+        <section class="projects">
+          <h2>Selected Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/JacobStephens2/MacroTracker">MacroTracker</a>:
+              Self-hosted nutrition-tracking PWA with barcode scanning, multi-API food search, recipes, CSV export, and offline-capable workflows
+            </li>
+            <li>
+              <a href="https://github.com/JacobStephens2/CreightonTrackingApp">CreightonTrackingApp</a>:
+              Privacy-focused fertility tracking app with encrypted sync, offline support, chart/calendar views, and provider sharing
+            </li>
+            <li>
+              <a href="https://github.com/JacobStephens2/magisterium_mcp_server">Magisterium MCP Server</a>:
+              TypeScript MCP server exposing structured theological citations to AI assistants
+            </li>
           </ul>
         </section>
 
@@ -283,10 +260,9 @@
           <p>
             <a href="https://gordon.edu/">Gordon College</a> | Aug 2012 - Aug 2017 |
             <a href="https://goo.gl/maps/qSZ9FPhr4F78LeveA">Wenham, MA</a>
-            <br>
-            <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">Full-Stack Developer</a> &
-            <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">WordPress Developer</a>
-            Certificates — <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a>, 2020–2021
+            | <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> certificates in
+            <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">Full-Stack Development</a> and
+            <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">WordPress Development</a>, 2020–2021
             <a href="https://www.dropbox.com/sh/8exwbue7u3sesd4/AACHQBJLWY5Z7AAGw_iKVTHna?dl=0">(view)</a>
           </p>
         </section>

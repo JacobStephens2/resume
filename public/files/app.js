@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var downloadBtn = document.getElementById('download-pdf-btn');
+  var downloadButtons = document.querySelectorAll('[data-download-resume]');
 
-  if (downloadBtn) {
+  downloadButtons.forEach(function(downloadBtn) {
     downloadBtn.addEventListener('click', function() {
       var link = document.createElement('a');
-      link.href = '/Jacob-Stephens-Resume.pdf';
-      link.download = 'Jacob-Stephens-Resume.pdf';
+      link.href = '/download-pdf.php';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     });
-  }
+  });
 });
