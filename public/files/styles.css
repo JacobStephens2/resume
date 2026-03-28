@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary-black: #000000;
-    --brand-blue: #0a4fb3;
-    --accent-orange: #F3A812;
-    --secondary-gray: #555555;
-    --surface: #ffffff;
-    --surface-soft: #f7f7f7;
-    --rule: #d9d9d9;
+    --primary-black: #181512;
+    --brand-blue: #9b4d24;
+    --accent-orange: #9b4d24;
+    --secondary-gray: #625a52;
+    --surface: #f6f1e8;
+    --surface-soft: #efe9df;
+    --rule: #d6d1c9;
 }
 
 html {
@@ -132,7 +132,7 @@ section {
     left: 0;
     padding: 0.5rem 1rem;
     background: var(--accent-orange);
-    color: #000;
+    color: #fff;
     font-weight: 600;
     z-index: 100
 }
@@ -227,7 +227,7 @@ p {
     padding: 0.75rem 1.1rem;
     font-size: 1rem;
     background-color: var(--accent-orange);
-    color: #000;
+    color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -251,7 +251,7 @@ p {
 
 .summary {
     font-size: 0.95rem;
-    color: #333;
+    color: var(--secondary-gray);
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     line-height: 1.5
@@ -429,7 +429,7 @@ section.education {
         align-items: center;
         gap: 0.75rem;
         padding: 0.75rem 1rem;
-        background: rgba(255, 255, 255, 0.96);
+        background: rgba(246, 241, 232, 0.96);
         border-bottom: 1px solid var(--rule)
     }
 
@@ -438,7 +438,7 @@ section.education {
         background: var(--accent-orange);
         border: none;
         border-radius: 4px;
-        color: #000;
+        color: #fff;
         font-size: 0.95rem;
         font-weight: 700
     }
