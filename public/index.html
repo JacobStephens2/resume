@@ -12,18 +12,24 @@
   <link rel="preconnect" href="https://www.googletagmanager.com/">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
   <link rel="stylesheet" type="text/css" href="./files/styles.css">
+  <style>
+    @media print {
+      .work h3:first-of-type + p + ul { break-inside: auto; }
+      .work h2 { break-after: avoid; }
+    }
+  </style>
   <link rel="canonical" href="https://resume.stephens.page/">
-  <meta name="description" content="Resume of Jacob Stephens — Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
+  <meta name="description" content="Resume of Jacob Stephens, Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
   <meta name="image" content="https://resume.stephens.page/files/stewardgoods-icon.png">
   <meta property="og:url" content="https://resume.stephens.page/">
   <meta property="og:title" content="Jacob Stephens&#39; Resume">
   <meta property="og:site_name" content="Jacob Stephens Resume">
-  <meta property="og:description" content="Resume of Jacob Stephens — Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
+  <meta property="og:description" content="Resume of Jacob Stephens, Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
   <meta property="og:image" content="https://resume.stephens.page/files/stewardgoods-icon.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="JacobSt73263669">
   <meta name="twitter:title" content="Jacob Stephens&#39; Resume">
-  <meta name="twitter:description" content="Resume of Jacob Stephens — Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
+  <meta name="twitter:description" content="Resume of Jacob Stephens, Senior Full-Stack Engineer specializing in PHP, Python, JavaScript, MySQL, REST APIs, and Linux infrastructure.">
   <meta name="twitter:image" content="https://resume.stephens.page/files/stewardgoods-icon.png">
 </head>
 
@@ -50,13 +56,13 @@
             </a>
             <br>
             <a href="https://stephens.page/portfolio.html" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">↗</span>Portfolio</a> | 
-            <a href="https://github.com/JacobStephens2" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">⌘</span>GitHub</a> | 
-            <a href="https://www.linkedin.com/in/jacob-stephens-0b034a200/" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">in</span>LinkedIn</a>
+            <a href="https://github.com/JacobStephens2" target="_blank" rel="noopener"><svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="14" height="14" fill="currentColor" style="vertical-align:-2px;margin-right:0.2em"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a> |
+            <a href="https://www.linkedin.com/in/jacob-c-stephens" target="_blank" rel="noopener"><span class="contact-icon" aria-hidden="true">in</span>LinkedIn</a>
         </p>
 
         <p class="summary">
-          Senior full-stack engineer building production payment, automation, and internal platform systems in PHP, TypeScript, and Python on MySQL.
-          Experience spans REST APIs, PWAs, Linux infrastructure, PCI-sensitive workflows, and AI-assisted developer tooling.
+          Senior full-stack engineer and lead technology owner for a multi-million-dollar specialty travel operator — architecting and operating the reservations platform, payment systems, Linux server fleet, and developer tooling the business runs on.
+          Stack spans PHP, TypeScript, and Python on MySQL, with deep experience in REST APIs, PWAs, PCI-sensitive workflows, and AI-assisted developer tooling.
           Strong track record improving performance, reducing operational risk, and shipping business-critical product features.
         </p>
 
@@ -76,12 +82,6 @@
                 <li class="javascript">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/ui/uses/modules/searchArtifactsList.js">JavaScript</a>
                 </li>
-                <li class="typescript">
-                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/src/main.ts">TypeScript</a>
-                </li>
-                <li class="python">
-                  <a target="_blank" rel="noopener" href="https://status.etadventures.com/">Python</a>
-                </li>
                 <li class="html">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/jacobstephens-resume/blob/main/public/index.html">HTML</a>
                 </li>
@@ -92,14 +92,35 @@
             </section>
 
             <section class="skill-group">
-              <h3>Frameworks & Platforms</h3>
+              <h3>Shipped with AI-Assisted Tooling</h3>
               <ul class="list">
+                <li class="typescript">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/src/main.ts">TypeScript</a>
+                </li>
                 <li class="nodejs">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker/blob/main/server/src/index.ts">Node.js / Express</a>
+                </li>
+                <li class="rust">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/cascade/blob/main/crates/cascade-core/src/lib.rs">Rust</a>
+                </li>
+                <li class="csharp">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/cascade/blob/main/apps/windows/Cascade/Services/CoreBridge.cs">C#</a>
+                </li>
+                <li class="python">
+                  <a target="_blank" rel="noopener" href="https://status.etadventures.com/">Python</a>
                 </li>
                 <li class="flask">
                   <a target="_blank" rel="noopener" href="https://status.etadventures.com/">Flask</a>
                 </li>
+                <li class="sqlite">
+                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker">SQLite</a>
+                </li>
+              </ul>
+            </section>
+
+            <section class="skill-group">
+              <h3>Frameworks & Platforms</h3>
+              <ul class="list">
                 <li class="pwa">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Progressive Web Apps</a>
                 </li>
@@ -110,10 +131,10 @@
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/chestercounty-life-wordpress-theme/commit/6074f5c901b539babf2375b81948fd3fa45cef57">WordPress</a>
                 </li>
                 <li class="pci_compliance">
-                  <a target="_blank" rel="noopener" href="https://etadventures.com/customerweb/">PCI Compliance</a>
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#eta-customer-portal">PCI Compliance</a>
                 </li>
                 <li class="ai_tooling">
-                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/magisterium_mcp_server">AI-Assisted Development (Claude Code, MCP)</a>
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#tourbot-chat">AI-Assisted Development (Claude Code, MCP)</a>
                 </li>
               </ul>
             </section>
@@ -124,16 +145,17 @@
                 <li class="api_development">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/event-manager-api/blob/main/public/index.php">REST APIs</a>
                 </li>
-                <li class="sqlite">
-                  <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/MacroTracker">SQLite</a>
+                <li class="api_integration">
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#tourbot">API Integration (Twilio, Textable)</a>
                 </li>
-                <li class="api_integration">API Integration (Twilio, Textable)</li>
-                <li class="queue_systems">Queue Systems & Automation</li>
+                <li class="queue_systems">
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#ach-nacha-automation">Queue Systems & Automation</a>
+                </li>
                 <li class="security">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Encryption & Privacy-First Design</a>
                 </li>
                 <li class="core_web_vitals">
-                  <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">Performance Optimization</a>
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#performance-tuning">Performance Optimization</a>
                 </li>
               </ul>
             </section>
@@ -147,13 +169,13 @@
                 <li class="apache">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/.htaccess">Apache</a>
                 </li>
-                <li class="caching">Caching Infrastructure</li>
+                <li class="caching">
+                  <a target="_blank" rel="noopener" href="https://stephens.page/portfolio.html#performance-tuning">Caching Infrastructure</a>
+                </li>
                 <li class="offline_sync">
                   <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/CreightonTrackingApp">Offline Sync</a>
                 </li>
-                <li class="dns">
-                  <a target="_blank" rel="noopener" href="https://aws.amazon.com/route53/">DNS Management</a>
-                </li>
+                <li class="dns">DNS Management</li>
               </ul>
             </section>
           </section>
@@ -175,6 +197,16 @@
           </p>
           <ul>
             <li>
+              Serve as lead engineer and continuity owner for the company's production stack — reservations platform, payment processing,
+              Linux server fleet, and deployment pipeline — with end-to-end responsibility for architecture, operations,
+              and on-call response across a multi-million-dollar travel business
+            </li>
+            <li>
+              Built <a href="https://guides.etadventures.com/">guides.etadventures.com</a> — a mobile-first PWA for field contractors
+              with service-worker offline support, live auto-save reporting, Twilio-powered SMS to travelers, receipt-attached expense
+              workflows, and manager-side administration — extending the JavaScript stack across a previously PHP-only platform
+            </li>
+            <li>
               Architected automated reservation cancellation workflows in PHP and MySQL, preventing bad debt accumulation with
               business-rule-driven automation that protects revenue and improves cash flow management
             </li>
@@ -187,19 +219,24 @@
               reducing page load times from 5-10 seconds to under 1 second and reducing database load by 70-80%
             </li>
             <li>
-              Led PCI compliance initiative, architecting secure API integration with TranSafe and Monetra merchant processors
-              across both platforms, implementing security best practices including bank account encryption
+              Optimized Tourbot's group manifest page through profile-driven N+1 elimination, batched in-request prefetch caches,
+              and a targeted history-table schema and index change, reducing page load from 5-7 seconds to ~1 second
+              and SQL statements per request from ~2,650 to ~183 with byte-identical HTML output
             </li>
             <li>
-              Directed enterprise-wide PHP 5 to PHP 8 migration across entire codebase and server infrastructure,
-              modernizing technology stack and improving application performance
+              Led PCI compliance initiative, architecting secure REST integrations with TranSafe and Monetra merchant processors
+              and ACH/NACHA file workflows over SFTP to the bank, implementing security best practices including bank-account encryption
             </li>
             <li>
-              Owned architecture for internal and customer-facing platforms, conducted code reviews, mentored a development team member,
-              and established development practices for a multi-million-dollar travel business
+              Led three enterprise-wide platform migrations (PHP 5 -&gt; 8, MySQL 5 -&gt; 8, and CentOS 7 -&gt; Rocky Linux 9) across the
+              codebase and server fleet, modernizing the stack and improving application performance
             </li>
             <li>
-              Built an internal orchestration and status platform in Python, Flask, and SQLite — a Caddy-fronted dashboard at
+              Established engineering practices across internal and customer-facing platforms — owning architecture decisions,
+              code review, and mentorship for the development team
+            </li>
+            <li>
+              Built an internal orchestration and status platform in Python, Flask, and SQLite: a Caddy-fronted dashboard at
               status.etadventures.com that probes the company's MySQL, web, and cron servers every 60 seconds, plus a hardened
               service-account pipeline (1Password-injected secrets, IP-pinned MySQL grants, sudo-scoped wrapper) that lets a Claude Code
               agent operate across multiple servers with auditable, scoped credentials
@@ -231,15 +268,13 @@
             United States, Remote
           </p>
           <ul>
-            <li><a href="https://dailydozen.jacobstephens.net/">Architected and developed</a> full-stack responsive nutrition-tracking web app,
-              implementing both frontend and backend functionality for mobile-first use</li>
+            <li>Designed and shipped <a href="https://artifact.stewardgoods.com/">artifact.stewardgoods.com</a>, a multi-tenant possessions tracker
+              built on full-stack PHP and MySQL with frontend, backend, and deployment ownership</li>
             <li>
-              <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">Optimized</a> 
-              website performance through code optimization and infrastructure improvements, achieving perfect scores (100/100)
-              on Google Core Web Vitals
+              <a href="/files/resume.stephens.page-2023-11-05.html" target="_blank" rel="noopener">Optimized</a>
+              website performance through code and infrastructure improvements, achieving perfect scores (100/100) on Google Core Web Vitals
             </li>
-            <li><a href="https://chestercounty-life.com/">Engineered</a> PCI-compliant subscription payments with Stripe and
-              <a href="https://artifact.stewardgoods.com/">designed a custom full-stack CMS</a> using PHP and MySQL</li>
+            <li><a href="https://chestercounty-life.com/">Engineered</a> PCI-compliant subscription payments with Stripe in PHP and MySQL</li>
           </ul>
         </section>
 
@@ -247,16 +282,24 @@
           <h2>Selected Projects</h2>
           <ul>
             <li>
-              <a href="https://github.com/JacobStephens2/MacroTracker">MacroTracker</a>:
-              Self-hosted nutrition-tracking PWA with barcode scanning, multi-API food search, recipes, CSV export, and offline-capable workflows
+              <a href="https://github.com/JacobStephens2/CreightonTrackingApp">CreightonTracker</a>:
+              Privacy-focused fertility tracking app with encrypted sync, offline support, chart/calendar views, and provider sharing — adopted by real users who found it through organic search (<a href="https://creightontracker.com/">creightontracker.com</a>)
             </li>
             <li>
-              <a href="https://github.com/JacobStephens2/CreightonTrackingApp">CreightonTrackingApp</a>:
-              Privacy-focused fertility tracking app with encrypted sync, offline support, chart/calendar views, and provider sharing
+              <a href="https://github.com/JacobStephens2/cascade">Cascade</a>:
+              Delivered a focus/sleep sound player as six native shells — web (PWA), Android, macOS, Windows, iOS, watchOS — driven from one headless Rust core over a single JSON boundary (wasm-bindgen, UniFFI, C ABI). Shipped the Rust core and C# Windows app through agent-assisted development (<a href="https://cascade.stephens.page">cascade.stephens.page</a>)
+            </li>
+            <li>
+              <a href="https://github.com/JacobStephens2/clowder-and-crest">Clowder &amp; Crest</a>:
+              Medieval cat-guild management game in TypeScript / Matter.js with 15 distinct minigame types and Playwright end-to-end test coverage (<a href="https://clowderandcrest.com">clowderandcrest.com</a>)
+            </li>
+            <li>
+              <a href="https://github.com/JacobStephens2/MacroTracker">MacroTracker</a>:
+              Self-hosted nutrition-tracking PWA with barcode scanning, multi-API food search, recipes, CSV export, and offline-capable workflows (Node.js / TypeScript / Express on SQLite; <a href="https://macros.stephens.page/">macros.stephens.page</a>)
             </li>
             <li>
               <a href="https://github.com/JacobStephens2/magisterium_mcp_server">Magisterium MCP Server</a>:
-              TypeScript MCP server exposing structured theological citations to AI assistants
+              TypeScript MCP server exposing structured theological citations to AI assistants (<a href="https://magisterium.stephens.page/">magisterium.stephens.page</a>)
             </li>
           </ul>
         </section>
@@ -272,10 +315,17 @@
           <p>
             <a href="https://gordon.edu/">Gordon College</a> | Aug 2012 - Aug 2017 |
             <a href="https://goo.gl/maps/qSZ9FPhr4F78LeveA">Wenham, MA</a>
-            | <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> certificates in
-            <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">Full-Stack Development</a> and
-            <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">WordPress Development</a>, 2020–2021
-            <a href="https://www.dropbox.com/sh/8exwbue7u3sesd4/AACHQBJLWY5Z7AAGw_iKVTHna?dl=0">(view)</a>
+          </p>
+
+          <h3>
+            <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> Certificates
+          </h3>
+          <p>
+            <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">Full-Stack Development</a>
+            and
+            <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">WordPress Development</a>
+            | 2020–2021 |
+            <a href="https://www.dropbox.com/sh/8exwbue7u3sesd4/AACHQBJLWY5Z7AAGw_iKVTHna?dl=0">view</a>
           </p>
         </section>
 
