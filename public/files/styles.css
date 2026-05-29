@@ -332,13 +332,13 @@ section.education {
     section.work,
     section.projects,
     section.education {
-        margin-top: 0.7rem;
-        padding-top: 0.45rem
+        margin-top: 0.55rem;
+        padding-top: 0.35rem
     }
 
     .skill-groups {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 0.3rem
     }
 
@@ -347,7 +347,7 @@ section.education {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
         break-inside: avoid;
-        padding: 0.3rem 0.5rem
+        padding: 0.24rem 0.5rem
     }
 
     h1,
@@ -386,7 +386,7 @@ section.education {
     p,
     li {
         font-size: 0.89rem;
-        line-height: 1.28
+        line-height: 1.19
     }
 
     .contact-info {
