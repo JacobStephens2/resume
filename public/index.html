@@ -180,8 +180,8 @@
             </li>
             <li>
               Built <a href="https://guides.etadventures.com/">guides.etadventures.com</a> - a mobile-first PWA for field contractors
-              with service-worker offline support, live auto-save reporting, Twilio-powered SMS to travelers, receipt-attached expense
-              workflows, and manager-side administration - extending the JavaScript stack across a previously PHP-only platform
+              with offline service-worker support, receipt-attached expense
+              workflows, and manager admin; adopted by 77 guides this season to file 410 tour reports, send 3,300+ traveler SMS, and process 1,800+ expense reports (~$154K), extending the JavaScript stack across a previously PHP-only platform
             </li>
             <li>
               Architected automated reservation cancellation workflows in PHP and MySQL, preventing bad debt accumulation with
@@ -219,9 +219,9 @@
             </li>
             <li>
               Designed and built a multi-tenant AI-assistant platform (Docker, Traefik) giving each business manager a
-              sandboxed Tourbot instance with its own isolated database, nightly refresh from production, per-container
-              resource limits, and allowlist-constrained (default-deny) agent command execution - with AI work isolated
-              on per-role branches and a manual review step before any change reaches production
+              sandboxed Tourbot instance with its own isolated database, nightly production refresh, per-container
+              resource limits, and default-deny agent command execution; AI work isolated on per-role branches behind a
+              review gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT)
             </li>
             <li>
               Built ProspectForge - an internal contact-sourcing platform (FastAPI, SQLAlchemy 2.0, Alembic, PostgreSQL,
