@@ -317,6 +317,11 @@ section.education {
     }
 }
 
+@page {
+    size: letter;
+    margin: 0.38in 0.5in;
+}
+
 @media print {
     html {
         -webkit-print-color-adjust: exact;
@@ -325,15 +330,15 @@ section.education {
 
     body {
         font-size: 14px;
-        line-height: 1.35
+        line-height: 1.32
     }
 
     section.skills,
     section.work,
     section.projects,
     section.education {
-        margin-top: 0.55rem;
-        padding-top: 0.35rem
+        margin-top: 0.28rem;
+        padding-top: 0.18rem
     }
 
     .skill-groups {
@@ -361,7 +366,7 @@ section.education {
 
     h2 {
         margin-bottom: 0;
-        font-size: 1.3rem
+        font-size: 1.18rem
     }
 
     h3 {
@@ -370,7 +375,7 @@ section.education {
     }
 
     ul {
-        margin-bottom: .25rem
+        margin-bottom: .15rem
     }
 
     li {
@@ -385,8 +390,8 @@ section.education {
     .summary,
     p,
     li {
-        font-size: 0.89rem;
-        line-height: 1.19
+        font-size: 0.84rem;
+        line-height: 1.14
     }
 
     .contact-info {
