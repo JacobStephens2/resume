@@ -221,7 +221,7 @@
               Designed and built a multi-tenant AI-assistant platform (Docker, Traefik) giving each business manager a
               sandboxed Tourbot instance with its own isolated database, few-hour production refresh, per-container
               resource limits, and default-deny agent command execution; AI work isolated on per-role branches behind a
-              review gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT)
+              human merge gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT). No agent approves, merges, deploys, or moves money without a named human gate - the <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns">seven-boundary safety checklist</a> governing this is published as sanitized ADRs
             </li>
             <li>
               Built ProspectForge - an internal contact-sourcing platform (FastAPI, SQLAlchemy 2.0, Alembic, PostgreSQL,
