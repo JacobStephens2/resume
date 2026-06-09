@@ -105,6 +105,7 @@
               <ul class="list">
                 <li class="docker">Docker</li>
                 <li class="docker-compose">Docker Compose</li>
+                <li class="kubernetes"><a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/k3s-demo">Kubernetes / k3s</a></li>
                 <li class="traefik">Traefik</li>
                 <li class="caddy">Caddy</li>
                 <li class="apache"><a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/.htaccess">Apache</a></li>
@@ -277,6 +278,10 @@
             <li>
               <a href="https://github.com/JacobStephens2/terraform-cloudflare-dns">terraform-cloudflare-dns</a>:
               Infrastructure-as-code for a personal web fleet of ~70 hostnames across 10 domains. Consolidated DNS from four registrars onto Cloudflare and brought ~220 records across 9 zones under Terraform by importing the live records (not recreating them) for a zero-downtime, no-op baseline plan. Remote state on AWS S3 kept off the compute provider for disaster-recovery independence, Ansible roles for one-command subdomain provisioning, a plan-only DigitalOcean rebuild blueprint, and GitHub Actions plan-on-PR. Sanitized public mirror of the production repo
+            </li>
+            <li>
+              <a href="https://github.com/JacobStephens2/k3s-demo">k3s-demo</a>:
+              A live, HTTPS two-tier Kubernetes app - a stateless Deployment in front of a Redis StatefulSet - on a single k3s node, provisioned end to end by Terraform and cloud-init. Production-grade manifests (rolling updates, liveness/readiness probes, resource limits, a hardened securityContext, a HorizontalPodAutoscaler, and RBAC), with an interactive page that triggers a load test and charts CPU crossing the 70% target as the pods scale 2 to 6 (<a href="https://k3s-demo.stephens.page">k3s-demo.stephens.page</a>). A deliberate Kubernetes exercise, kept separate from my systemd-based production fleet
             </li>
             <li>
               <a href="https://github.com/JacobStephens2/cascade">Cascade</a>:

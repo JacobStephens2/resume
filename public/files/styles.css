@@ -319,7 +319,7 @@ section.education {
 
 @page {
     size: letter;
-    margin: 0.38in 0.5in;
+    margin: 0.28in 0.5in;
 }
 
 @media print {
@@ -330,15 +330,15 @@ section.education {
 
     body {
         font-size: 14px;
-        line-height: 1.2
+        line-height: 1.15
     }
 
     section.skills,
     section.work,
     section.projects,
     section.education {
-        margin-top: 0.14rem;
-        padding-top: 0.06rem
+        margin-top: 0.05rem;
+        padding-top: 0.04rem
     }
 
     .skill-groups {
@@ -391,7 +391,7 @@ section.education {
     p,
     li {
         font-size: 0.84rem;
-        line-height: 1.08
+        line-height: 1.05
     }
 
     .contact-info {
