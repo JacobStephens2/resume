@@ -330,21 +330,21 @@ section.education {
 
     body {
         font-size: 14px;
-        line-height: 1.32
+        line-height: 1.2
     }
 
     section.skills,
     section.work,
     section.projects,
     section.education {
-        margin-top: 0.28rem;
-        padding-top: 0.18rem
+        margin-top: 0.14rem;
+        padding-top: 0.06rem
     }
 
     .skill-groups {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 0.3rem
+        gap: 0.2rem
     }
 
     .skill-group {
@@ -352,7 +352,7 @@ section.education {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
         break-inside: avoid;
-        padding: 0.24rem 0.5rem
+        padding: 0.16rem 0.5rem
     }
 
     h1,
@@ -375,7 +375,7 @@ section.education {
     }
 
     ul {
-        margin-bottom: .15rem
+        margin-bottom: .08rem
     }
 
     li {
@@ -391,7 +391,7 @@ section.education {
     p,
     li {
         font-size: 0.84rem;
-        line-height: 1.14
+        line-height: 1.08
     }
 
     .contact-info {
