@@ -61,7 +61,7 @@
 
         <p class="summary">
           Platform and infrastructure engineer specializing in safe AI automation for revenue-critical legacy systems. For 4+ years the lead engineering owner of a multi-million-dollar specialty-travel operator's production stack - reservations platform, payment systems, Linux server fleet, and AI-agent infrastructure.
-          Recent work: a multi-tenant AI-assistant platform where every agent runs in a per-role sandbox behind a human merge gate (Docker/Traefik) and a scoped-credential agent-orchestration VM.
+          Recent work: a multi-tenant AI-assistant platform where every agent runs in a per-role sandbox behind a human merge gate (Docker/Traefik), fleet-wide Prometheus/Grafana observability, and a measurement-driven production-database pass that removed ~80% of query load.
           Strong track record improving performance, reducing operational risk, and shipping business-critical product features.
         </p>
 
@@ -106,6 +106,7 @@
                 <li class="docker">Docker</li>
                 <li class="docker-compose">Docker Compose</li>
                 <li class="kubernetes"><a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/k3s-demo">Kubernetes / k3s</a></li>
+                <li class="opa"><a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns/blob/main/adr/0016-policy-as-code-admission-over-trusted-manifests.md">OPA Gatekeeper (policy as code)</a></li>
                 <li class="traefik">Traefik</li>
                 <li class="caddy">Caddy</li>
                 <li class="apache"><a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/artifact-management-tool/blob/main/api/.htaccess">Apache</a></li>
@@ -166,7 +167,7 @@
 
           <h2>Work</h2>
           <h3>
-            Platform & Infrastructure - Senior Software Engineer
+            Senior Platform &amp; Infrastructure Engineer
           </h3>
           <p>
             <a href="https://etadventures.com/">Educational Travel Adventures</a> | 
@@ -185,16 +186,17 @@
               workflows, and manager admin; adopted by 77 guides this season to file 410 tour reports, send 3,300+ traveler SMS, and process 1,800+ expense reports (~$154K), extending the JavaScript stack across a previously PHP-only platform
             </li>
             <li>
-              Architected automated reservation cancellation workflows in PHP and MySQL, preventing bad debt accumulation with
-              business-rule-driven automation that protects revenue and improves cash flow management
+              Architected automated reservation-cancellation workflows in PHP and MySQL, preventing bad-debt accumulation
+              with business-rule-driven automation
             </li>
             <li>
-              Built payment notification queue management system with Twilio SMS, transactional email, and voice capabilities,
-              enabling self-service configuration and reducing manual work by 80%+ while ensuring timely customer communication
+              Built a payment-notification queue system with Twilio SMS, transactional email, and voice - self-service
+              configuration cut manual work by 80%+
             </li>
             <li>
-              Optimized alert system performance through caching infrastructure and database query improvements,
-              reducing page load times from 5-10 seconds to under 1 second and reducing database load by 70-80%
+              Drove production-database performance from measurement: caching and query work took alert pages from
+              5-10 seconds to under 1 second, and a <code>performance_schema</code>-led index pass (online DDL, zero downtime)
+              eliminated ~80% of measured query time on the live primary
             </li>
             <li>
               Optimized Tourbot's group manifest page through profile-driven N+1 elimination, batched in-request prefetch caches,
@@ -210,7 +212,7 @@
               codebase and server fleet, modernizing the stack and improving application performance
             </li>
             <li>
-              Established engineering practices across internal and customer-facing platforms - owning architecture decisions,
+              Established engineering practices across internal and customer-facing platforms - architecture decisions,
               code review, and mentoring two developers
             </li>
             <li>
@@ -219,10 +221,15 @@
               running an autonomous coding agent as a scoped, least-privilege system user with auditable, vault-injected credentials
             </li>
             <li>
+              Stood up fleet-wide observability on a Terraform-provisioned droplet - Prometheus, Grafana, and Alertmanager
+              instrumenting 14 hosts (node/mysqld/blackbox exporters: uptime, replication health, TLS expiry) with
+              email and SMS paging consolidated into a single alert pipeline
+            </li>
+            <li>
               Designed and built a multi-tenant AI-assistant platform (Docker, Traefik) giving each business manager a
               sandboxed Tourbot instance with its own isolated database, few-hour production refresh, per-container
               resource limits, and default-deny agent command execution; AI work isolated on per-role branches behind a
-              human merge gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT). No agent approves, merges, deploys, or moves money without a named human gate - the <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns">seven-boundary safety checklist</a> governing this is published as sanitized ADRs
+              human merge gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT). No agent approves, merges, deploys, or moves money without a named human gate - the <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns">seven-boundary safety checklist</a> governing this is published as sanitized ADRs and a <a target="_blank" rel="noopener" href="https://stephens.page/notes/human-in-the-loop-ai-agents/">pattern write-up</a>
             </li>
             <li>
               Built ProspectForge - an internal contact-sourcing platform (FastAPI, SQLAlchemy 2.0, Alembic, PostgreSQL,
@@ -241,12 +248,10 @@
           <p><a href="https://sharpinnovations.com/">Sharp Innovations</a> | Nov 2021 - Feb 2022 | <a
               href="https://g.page/SharpInnovationsInc?share">Conestoga, PA</a></p>
           <ul>
-            <li>Developed automated database migration scripts using SQL and PHP, reducing migration time from hours to minutes 
-              and eliminating manual errors, improving deployment efficiency and reliability</li>
-            <li>Delivered comprehensive technical support for web clients, troubleshooting and resolving complex issues including 
-              UI/UX updates, security vulnerabilities, and Linux server configuration and optimization</li>
-            <li>Implemented project management task board system to replace email-based workflow, improving team productivity, 
-              project visibility, and cross-functional collaboration</li>
+            <li>Developed automated database migration scripts in SQL and PHP, reducing migration time from hours to minutes
+              and eliminating manual errors</li>
+            <li>Delivered technical support for web clients - UI/UX updates, security vulnerabilities, and Linux server
+              configuration and optimization</li>
           </ul>
   
           <!-- <div class="print_spacer"></div> -->
@@ -273,7 +278,7 @@
           <ul>
             <li>
               <a href="https://github.com/JacobStephens2/infrastructure-patterns">infrastructure-patterns</a>:
-              Sanitized architecture decision records and the seven-boundary agent-safety checklist drawn from production systems I operate - per-role isolation, scoped least-privilege credentials, default-deny command surfaces, human merge gates, audit trails, and rollback - published so other small-business engineers can safeguard their own systems
+              Seventeen sanitized architecture decision records and the seven-boundary agent-safety checklist drawn from production systems I operate - per-role isolation, scoped least-privilege credentials, default-deny command surfaces, human merge gates, audit trails, and rollback - published so other small-business engineers can safeguard their own systems
             </li>
             <li>
               <a href="https://github.com/JacobStephens2/terraform-cloudflare-dns">terraform-cloudflare-dns</a>:
@@ -281,7 +286,7 @@
             </li>
             <li>
               <a href="https://github.com/JacobStephens2/k3s-demo">k3s-demo</a>:
-              A live, HTTPS two-tier Kubernetes app - a stateless Deployment in front of a Redis StatefulSet - on a single k3s node, provisioned end to end by Terraform and cloud-init. Production-grade manifests (rolling updates, liveness/readiness probes, resource limits, a hardened securityContext, a HorizontalPodAutoscaler, and RBAC), with an interactive page that triggers a load test and charts CPU crossing the 70% target as the pods scale 2 to 6 (<a href="https://k3s-demo.stephens.page">k3s-demo.stephens.page</a>). A deliberate Kubernetes exercise, kept separate from my systemd-based production fleet
+              A live, HTTPS two-tier Kubernetes app - a stateless Deployment in front of a Redis StatefulSet - on a single k3s node, provisioned end to end by Terraform and cloud-init. Production-grade manifests (rolling updates, liveness/readiness probes, resource limits, a hardened securityContext, a HorizontalPodAutoscaler, and RBAC), with an interactive page that triggers a load test and charts CPU crossing the 70% target as the pods scale 2 to 6 (<a href="https://k3s-demo.stephens.page">k3s-demo.stephens.page</a>). Guarded by a five-rule OPA Gatekeeper admission layer, one rule re-expressed as a ValidatingAdmissionPolicy in CEL. A deliberate Kubernetes exercise, kept separate from my systemd-based production fleet
             </li>
             <li>
               <a href="https://github.com/JacobStephens2/cascade">Cascade</a>:
@@ -290,10 +295,6 @@
             <li>
               <a href="https://chart35.com">Chart35</a>:
               Privacy-first fertility tracker with client-side AES-256-GCM encryption, offline-first IndexedDB storage, and expiring provider-share links - shipped as a PWA and Android app (Capacitor) plus a separate native SwiftUI app for iPhone, Apple Watch, and macOS; adopted by real users via organic search (<a href="https://stephens.page/chart35.html">case study</a>, <a href="https://github.com/JacobStephens2/CreightonTrackingApp">source</a>)
-            </li>
-            <li>
-              <a href="https://quadrille.app">quadrille</a>:
-              Local-first cross-platform weightlifting tracker in Flutter / Dart (Riverpod, Drift/SQLite) with wall-clock rest timers that survive process death via OS notifications, a layered MVVM + repository architecture, and a Dart test suite (<a href="https://quadrille.app">quadrille.app</a>)
             </li>
           </ul>
         </section>
@@ -314,13 +315,6 @@
           </h3>
           <p>
             <a href="https://www.comptia.org/">CompTIA A+</a> | Nov 2017
-          </p>
-          <p>
-            <a href="https://www.linkedin.com/learning/">LinkedIn Learning</a>:
-            <a href="https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer?u=95224929">Full-Stack Development</a>
-            and
-            <a href="https://www.linkedin.com/learning/paths/become-an-advanced-wordpress-developer?u=95224929">WordPress Development</a>
-            | 2020-2021
           </p>
         </section>
 
