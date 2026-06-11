@@ -2,13 +2,13 @@
 
 set -euo pipefail
 
-if [ "$#" -ne 1 ]; then
-  echo "Usage: $0 OUTPUT_PATH" >&2
+if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
+  echo "Usage: $0 OUTPUT_PATH [RESUME_URL]" >&2
   exit 64
 fi
 
 output_path="$1"
-resume_url="https://resume.stephens.page/?pdf=1"
+resume_url="${2:-https://resume.stephens.page/?pdf=1}"
 
 google-chrome \
   --headless \

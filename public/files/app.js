@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   downloadButtons.forEach(function(downloadBtn) {
     downloadBtn.addEventListener('click', function() {
       var link = document.createElement('a');
-      link.href = '/download-pdf.php';
+      var variant = downloadBtn.getAttribute('data-variant');
+      link.href = '/download-pdf.php' + (variant ? '?variant=' + encodeURIComponent(variant) : '');
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

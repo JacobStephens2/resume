@@ -4,6 +4,15 @@ declare(strict_types=1);
 
 $renderScript = dirname(__DIR__) . '/private/render_resume_pdf.sh';
 
+// Tailored resume variants: strict whitelist of slug => page URL. Anything not
+// listed here falls back to the main resume.
+$variants = [
+    'anthropic-staff-software-engineer' => 'https://resume.stephens.page/anthropic-staff-software-engineer/?pdf=1',
+];
+
+$variant = isset($_GET['variant']) && is_string($_GET['variant']) ? $_GET['variant'] : '';
+$resumeUrl = $variants[$variant] ?? null;
+
 if (!is_file($renderScript) || !is_executable($renderScript)) {
     http_response_code(500);
     header('Content-Type: text/plain; charset=UTF-8');
@@ -23,7 +32,9 @@ if ($tempFile === false) {
 $pdfPath = $tempFile . '.pdf';
 unlink($tempFile);
 
-$command = escapeshellarg($renderScript) . ' ' . escapeshellarg($pdfPath) . ' 2>&1';
+$command = escapeshellarg($renderScript) . ' ' . escapeshellarg($pdfPath)
+    . ($resumeUrl !== null ? ' ' . escapeshellarg($resumeUrl) : '')
+    . ' 2>&1';
 $output = [];
 $exitCode = 0;
 exec($command, $output, $exitCode);
