@@ -272,6 +272,12 @@ p {
 }
 
 .content a {
+    text-decoration: none
+}
+
+.content a:hover,
+.content a:focus {
+    text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.12em
 }
@@ -311,24 +317,46 @@ section.education {
 }
 
 .skill-groups {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem
+    display: block
 }
 
 .skill-group {
-    background: var(--surface-soft);
-    padding: 0.9rem 1rem;
-    border-radius: 4px
+    margin-bottom: 0.85rem
 }
 
 .skill-group h3 {
-    margin-top: 0;
-    margin-bottom: 0.4rem
+    font-family: 'Source Sans 3', Arial, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--secondary-gray);
+    margin: 0
 }
 
 .skill-group ul {
-    margin-bottom: 0
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.skill-group li {
+    display: inline;
+    padding: 0
+}
+
+.skill-group li+li::before {
+    content: " \00b7  ";
+    color: var(--brand-blue)
+}
+
+.skill-group a {
+    color: inherit
+}
+
+.skill-group a:hover,
+.skill-group a:focus {
+    color: var(--brand-blue)
 }
 
 .contact-icon {
@@ -341,12 +369,6 @@ section.education {
 .work p,
 .education p {
     color: var(--secondary-gray)
-}
-
-@media screen and (min-width:640px) {
-    .skill-groups {
-        grid-template-columns: repeat(2, minmax(0, 1fr))
-    }
 }
 
 @page {
@@ -381,45 +403,13 @@ section.education {
         text-decoration: none !important
     }
 
-    .skill-groups {
-        display: block
-    }
-
     .skill-group {
-        background: none !important;
-        padding: 0;
         break-inside: avoid;
         margin-bottom: 0.2rem
     }
 
     .skill-group h3 {
-        font-family: 'Source Sans 3', Arial, sans-serif;
-        font-size: 0.66rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--secondary-gray);
-        margin: 0
-    }
-
-    .skill-group ul {
-        margin: 0;
-        padding: 0;
-        list-style: none
-    }
-
-    .skill-group li {
-        display: inline;
-        padding: 0
-    }
-
-    .skill-group li+li::before {
-        content: " \00b7  ";
-        color: var(--brand-blue)
-    }
-
-    .skill-group a {
-        color: inherit
+        font-size: 0.66rem
     }
 
     h1,
