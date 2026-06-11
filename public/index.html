@@ -62,7 +62,6 @@
         <p class="summary">
           Platform and infrastructure engineer specializing in safe AI automation for revenue-critical legacy systems. For 4+ years the lead engineering owner of a multi-million-dollar specialty-travel operator's production stack - reservations platform, payment systems, Linux server fleet, and AI-agent infrastructure.
           Recent work: a multi-tenant AI-assistant platform where every agent runs in a per-role sandbox behind a human merge gate (Docker/Traefik), fleet-wide Prometheus/Grafana observability, and a measurement-driven production-database pass that removed ~80% of query load.
-          Strong track record improving performance, reducing operational risk, and shipping business-critical product features.
         </p>
 
         <section class="skills">
@@ -196,12 +195,8 @@
             <li>
               Drove production-database performance from measurement: caching and query work took alert pages from
               5-10 seconds to under 1 second, and a <code>performance_schema</code>-led index pass (online DDL, zero downtime)
-              eliminated ~80% of measured query time on the live primary
-            </li>
-            <li>
-              Optimized Tourbot's group manifest page through profile-driven N+1 elimination, batched in-request prefetch caches,
-              and a targeted history-table schema and index change, reducing page load from 5-7 seconds to ~1 second
-              and SQL statements per request from ~2,650 to ~183 with byte-identical HTML output
+              eliminated ~80% of measured query time on the live primary; a profile-driven N+1 elimination pass on the
+              group-manifest page cut SQL statements per request from ~2,650 to ~183 with byte-identical HTML output
             </li>
             <li>
               Led PCI compliance initiative, architecting secure REST integrations with merchant payment processors
@@ -230,6 +225,11 @@
               sandboxed Tourbot instance with its own isolated database, few-hour production refresh, per-container
               resource limits, and default-deny agent command execution; AI work isolated on per-role branches behind a
               human merge gate through which 14 manager-prototyped features shipped to production across all four roles (sales, marketing, GM, IT). No agent approves, merges, deploys, or moves money without a named human gate - the <a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns">seven-boundary safety checklist</a> governing this is published as sanitized ADRs and a <a target="_blank" rel="noopener" href="https://stephens.page/notes/human-in-the-loop-ai-agents/">pattern write-up</a>
+            </li>
+            <li>
+              Replaced database triggers with binlog-tailing daemons for derived reporting data - reconciliation
+              pipelines that keep denormalized tables consistent with the transactional source, in versioned code off
+              the hot write path (<a target="_blank" rel="noopener" href="https://github.com/JacobStephens2/infrastructure-patterns/blob/main/adr/0006-binlog-daemons-over-database-triggers.md">ADR 0006</a>)
             </li>
             <li>
               Built ProspectForge - an internal contact-sourcing platform (FastAPI, SQLAlchemy 2.0, Alembic, PostgreSQL,
