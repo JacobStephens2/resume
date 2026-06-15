@@ -273,6 +273,17 @@ p {
     align-items: flex-start
 }
 
+/* normalize the <button> and the <a> so they share font + height */
+#download-pdf-btn,
+#download-md-btn {
+    font-family: inherit;
+    line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+}
+
 #download-md-btn {
     margin-bottom: 1rem;
     padding: 0.75rem 1.1rem;
