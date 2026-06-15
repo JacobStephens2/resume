@@ -266,6 +266,29 @@ p {
     font-weight: 700
 }
 
+.dl-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: flex-start
+}
+
+#download-md-btn {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1.1rem;
+    font-size: 1rem;
+    background-color: #fff;
+    color: var(--accent-orange);
+    border: 1px solid var(--accent-orange);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none
+}
+
+#download-md-btn:hover,
+#download-md-btn:focus { background-color: var(--surface-soft) }
+
 .page-break-before {
     page-break-before: always;
     break-before: page
@@ -466,6 +489,7 @@ section.education {
     }
 
     #download-pdf-btn,
+    #download-md-btn,
     .sticky-mobile-header {
         display: none !important
     }
