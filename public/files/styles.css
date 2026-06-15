@@ -256,11 +256,11 @@ p {
 
 #download-pdf-btn {
     margin-bottom: 1rem;
-    padding: 0.75rem 1.1rem;
-    font-size: 1rem;
+    padding: 0.55rem 0.95rem;
+    font-size: 0.9rem;
     background-color: var(--accent-orange);
     color: #fff;
-    border: none;
+    border: 1px solid var(--accent-orange);
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700
@@ -286,16 +286,19 @@ p {
 
 #download-md-btn {
     margin-bottom: 1rem;
-    padding: 0.75rem 1.1rem;
-    font-size: 1rem;
-    background-color: var(--accent-orange);
-    color: #fff;
-    border: none;
+    padding: 0.55rem 0.95rem;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: var(--accent-orange);
+    border: 1px solid var(--accent-orange);
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
     text-decoration: none
 }
+
+#download-md-btn:hover,
+#download-md-btn:focus { background-color: var(--surface-soft) }
 
 .page-break-before {
     page-break-before: always;
