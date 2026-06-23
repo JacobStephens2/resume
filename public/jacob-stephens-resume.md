@@ -27,7 +27,7 @@ Recent work: a multi-tenant AI-assistant platform where every agent runs in a pe
 
 ### Frameworks & Runtimes
 
-* [FastAPI](https://github.com/JacobStephens2/k3s-demo/blob/main/app/main.py)
+* [FastAPI](https://github.com/JacobStephens2/dashboard.stephens.page/blob/main/app/main.py)
 * [Next.js](https://github.com/JacobStephens2/game-planning/blob/main/actions/events.ts)
 * [React](https://github.com/JacobStephens2/event-manager-web-app-ui/blob/master/src/views/Events/CreateEvent.js)
 * [Node.js / Express](https://github.com/JacobStephens2/MacroTracker/blob/main/server/src/index.ts)
