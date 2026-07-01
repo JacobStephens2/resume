@@ -532,9 +532,9 @@ section.education {
         right: 0;
         z-index: 50;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        gap: 0.75rem;
+        gap: 0.5rem;
         padding: 0.75rem 1rem;
         background: rgba(255, 255, 255, 0.96);
         border-bottom: 1px solid var(--rule)
@@ -550,12 +550,25 @@ section.education {
         font-weight: 700
     }
 
+    .sticky-download-md {
+        padding: 0.6rem 0.9rem;
+        background: #fff;
+        color: var(--accent-orange);
+        border: 1px solid var(--accent-orange);
+        border-radius: 4px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap
+    }
+
     header {
         flex-direction: column;
         align-items: stretch
     }
 
-    #download-pdf-btn {
+    /* Both download buttons now live in the sticky bar on mobile. */
+    .dl-buttons {
         display: none
     }
 
