@@ -5,7 +5,8 @@
 
 [Portfolio](https://stephens.page/portfolio.html) |
 [GitHub](https://github.com/JacobStephens2) |
-[LinkedIn](https://www.linkedin.com/in/jacob-c-stephens)
+[LinkedIn](https://www.linkedin.com/in/jacob-c-stephens) |
+[Stack](https://stephens.page/stack/)
 
 Platform and infrastructure engineer specializing in safe AI automation for revenue-critical legacy systems. For 4+ years the lead engineering owner of a multi-million-dollar specialty-travel operator's production stack - reservations platform, payment systems, Linux server fleet, and AI-agent infrastructure.
 Recent work: a multi-tenant AI-assistant platform where every agent runs in a per-role sandbox behind a human merge gate (Docker/Traefik), fleet-wide Prometheus/Grafana observability, and a measurement-driven production-database pass that removed ~80% of query load.
